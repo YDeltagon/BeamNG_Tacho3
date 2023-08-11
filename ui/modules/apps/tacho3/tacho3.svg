@@ -16,7 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="tacho.svg"
+   sodipodi:docname="tacho3.svg"
    inkscape:export-filename="C:\Users\sam\Desktop\bitmap.png"
    inkscape:export-xdpi="181.33821"
    inkscape:export-ydpi="181.33821">
@@ -689,15 +689,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.3900548"
-     inkscape:cx="352.73883"
-     inkscape:cy="311.65909"
+     inkscape:zoom="1.8847266"
+     inkscape:cx="282.64523"
+     inkscape:cy="297.58244"
      inkscape:document-units="px"
      inkscape:current-layer="layer6"
      showgrid="true"
-     inkscape:window-width="2560"
-     inkscape:window-height="1369"
-     inkscape:window-x="1912"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      fit-margin-top="0"
@@ -775,42 +775,43 @@
        clip-path="url(#clipPath4407-8)" />
     <text
        xml:space="preserve"
-       style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
        x="329.88641"
-       y="291.74878"
-       id="tacho2airspeed"
+       y="177.85065"
+       id="tspan4449-43"
        sodipodi:linespacing="125%"
-       inkscape:label="#tacho2airspeed"><tspan
+       inkscape:label="#tacho2speed"><tspan
          sodipodi:role="line"
          id="tacho2speed"
          x="329.88641"
-         y="291.74878"
-         style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Squada One;-inkscape-font-specification:Squada One">0</tspan></text>
+         y="177.85065"
+         style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Squada One;-inkscape-font-specification:Squada One">0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.8;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.8;stroke:none;display:inline;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue"
        x="330"
-       y="344"
+       y="350"
        id="speed_units"
        sodipodi:linespacing="125%"
        inkscape:label="#speed_units"><tspan
          sodipodi:role="line"
          id="speedunit"
          x="330"
-         y="344">mph</tspan></text>
+         y="350">mph</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
-       x="386.00668"
-       y="452.8754"
+       x="387.99445"
+       y="468"
        id="tspan4449-4-3"
        sodipodi:linespacing="125%"
        inkscape:label="#text4447-1-3"
        transform="matrix(1,0,-0.13142611,1,0,0)"><tspan
          sodipodi:role="line"
-         id="tspan3908"
-         x="386.00668"
-         y="452.8754">M4</tspan></text>
+         id="tacho2gear"
+         x="387.99445"
+         y="468"
+         style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Squada One;-inkscape-font-specification:Squada One">4</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:46px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
@@ -987,29 +988,30 @@
     <text
        inkscape:label="#tacho2speed"
        sodipodi:linespacing="125%"
-       id="text3894"
-       y="191.24927"
+       id="text3900"
+       y="275.12662"
        x="329.88641"
-       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
        xml:space="preserve"><tspan
-         style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Squada One;-inkscape-font-specification:Squada One"
-         y="191.24927"
+         style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Squada One;-inkscape-font-specification:Squada One"
+         y="275.12662"
          x="329.88641"
-         id="tspan3896"
+         id="tspan3902"
          sodipodi:role="line">0</tspan></text>
     <text
        transform="matrix(1,0,-0.13142611,1,0,0)"
-       inkscape:label="gear"
+       inkscape:label="#text4447-1-3"
        sodipodi:linespacing="125%"
-       id="text3898"
-       y="504.49951"
-       x="395.55704"
+       id="text3908"
+       y="515"
+       x="394.17148"
        style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
        xml:space="preserve"><tspan
-         sodipodi:role="line"
-         id="tspan3914"
-         x="395.55704"
-         y="504.49951">6</tspan></text>
+         style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Squada One;-inkscape-font-specification:Squada One"
+         y="515"
+         x="394.17148"
+         id="tspan3910"
+         sodipodi:role="line">4</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2093,10 +2095,6 @@ var oilTempIcoOn = document.getElementById('ico_temp_on');
 // speed
 var speedText = document.getElementById('tacho2speed');
 speedText.textContent = '';
-
-// airspeed
-var airspeedText = document.getElementById('tacho2airspeed');
-airspeedText.textContent = '';
 
 // gear
 var gearText = document.getElementById('tacho2gear');

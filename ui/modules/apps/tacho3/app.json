@@ -1,9 +1,9 @@
 {
   "//comment_1": "The DOM element for the app",
-  "domElement": "<tacho2></tacho2>",
+  "domElement": "<tacho3></tacho3>",
 
   "//comment_2": "The name of the app",
-  "name": "ui.apps.tacho2+.name",
+  "name": "tacho3",
 
   "//comment_3": "The category of the app",
   "types": [
@@ -31,5 +31,5 @@
   "version": "0.1",
 
   "//comment_9": "The AngularJS directive for the app",
-  "directive": "tacho2+"
+  "directive": "tacho3"
 }

@@ -2,11 +2,11 @@
 
 // Define a new AngularJS module for the BeamNG app
 angular.module('beamng.apps')
-.directive('Tacho2+', [function () {
+.directive('tacho3', [function () {
   return {
     // Define the template for the directive, which is an SVG object
     template:
-        '<object style="width:100%; height:100%; box-sizing:border-box; pointer-events: none" type="image/svg+xml" data="/ui/modules/apps/Tacho2+/tacho.svg"></object>',
+        '<object style="width:100%; height:100%; box-sizing:border-box; pointer-events: none" type="image/svg+xml" data="/ui/modules/apps/tacho3/tacho3.svg"></object>',
     replace: true,  // Replace the directive with the template
     restrict: 'EA',  // Restrict the directive to elements and attributes
 
