@@ -1,0 +1,27 @@
+<svg 
+    viewBox="0 0 52 40"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg">
+
+    <style>
+    * {
+    }
+    path {
+        stroke: #1594ff;
+        stroke-width: 4;
+        fill: none;
+        stroke-linecap: round;
+    }
+    </style>
+
+    <path
+        d="M 30,4 a 18,14 0 0 1 0,28 a 6,14 0 0 1 0,-28"
+    />
+
+    <path d="M 20,4                  L 4,4" />
+    <path d="M 17.803847577293368,11 L 4,11" />
+    <path d="M 17,18                 L 4,18" />
+    <path d="M 17.803847577293368,25 L 4,25" />
+    <path d="M 20,32                 L 4,32" />
+
+</svg>

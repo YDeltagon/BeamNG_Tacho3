@@ -1,0 +1,17 @@
+{
+  "domElement": "<bxfinduction></bxfinduction>",
+  "name": "BeamXForza Forced Induction",
+  "types": [
+    "ui.apps.categories.vehicle_info"
+  ],
+  "description": "Custom Induction for BeamXForza Mod",
+  "css": {
+    "bottom": "350px",
+    "height": "160px",
+    "width": "160px",
+    "right": "30px"
+  },
+  "author": "beamng.ui Team & Galaxia",
+  "version": "2.0",
+  "directive": "bxfinduction"
+}

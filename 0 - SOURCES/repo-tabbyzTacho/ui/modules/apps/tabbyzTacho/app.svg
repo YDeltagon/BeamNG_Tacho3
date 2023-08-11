@@ -1,0 +1,129 @@
+<svg
+    viewBox="5.5 5.5 89 89"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg">
+    
+    <style>
+    @font-face {
+        font-family: Roboto;
+        font-weight: 400;
+        src: url(/ui/common/tabbyzTacho/fonts/Roboto-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: Roboto;
+        font-weight: 500;
+        src: url(/ui/common/tabbyzTacho/fonts/Roboto-Medium.ttf);
+    }
+
+    #background {
+        fill: #000b;
+    }
+    text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        fill: #fff;
+    }
+    #rpmCurve {
+        stroke: #fff;
+    }
+    #rpmCurveMarkers {
+        stroke: #000a;
+    }
+    #rpmCurveBackground {
+        stroke: #fff4;
+    }
+    #rpmCurveRedline {
+        stroke: #f006;
+    }
+
+    #fuelGauge {
+        stroke: #fffc;
+    }
+    #fuelGaugeBackground {
+        stroke: #ffffff54;
+    }
+
+
+    #speedText {
+        font-size: 27px;
+    }
+    #speedUnitText {
+        font-size: 8px;
+        opacity: 0.9;
+    }
+
+    #gearText {
+        font-size: 20px;
+    }
+    #driveModeText {
+        font-size: 7.4px;
+        font-weight: 500;
+    }
+
+    .warning {
+        font-weight: 500;
+        font-size: 8px;
+        fill: #dac772;
+    }
+    </style>
+    <circle
+        id="background"
+        cx="50"
+        cy="50"
+        r="44.5"
+    />
+    <path
+        style="fill:none;stroke-width:9;"
+        id="rpmCurveBackground"
+        d="M 30,84.6410 A 40 40 0 1 1 70,84.6410"
+    />
+    <path
+        style="fill:none;stroke-width:9;"
+        id="rpmCurve"
+        stroke-dasharray="0 9999"
+        d="M 30,84.6410 A 40 40 0 1 1 70,84.6410"
+    />
+    <path
+        style="fill:none;stroke-width:9;"
+        id="rpmCurveRedline"
+        d="M 90,50 A 40 40 0 0 1 70,84.641"
+    />
+    <path
+        style="fill:none;stroke-width:4;"
+        id="rpmCurveMarkers"
+        stroke-dasharray="0 9999"
+        d="M 30,84.6410 A 40 40 0 1 1 70,84.6410"
+    />
+
+    <path
+        style="fill:none;stroke-width:4;"
+        id="fuelGaugeBackground"
+        d="M 67.5348,85.9518 A 40 40 0 0 1 32.4652,85.9518 "
+    />
+    <path
+        style="fill:none;stroke-width:4;"
+        id="fuelGauge"
+        stroke-dasharray="0 9999"
+        d="M 32.4652,85.9518 A 40 40 0 0 0 67.5348,85.9518 "
+    />
+
+    <text x="50" y="46" text-anchor="middle" id="speedText">-</text>
+    <text x="50" y="48" text-anchor="middle" dominant-baseline="hanging" id="speedUnitText">-</text>
+    <text x="50" y="66" text-anchor="middle" dominant-baseline="central" id="gearText">-</text>
+    <text x="50" y="78.5" text-anchor="middle" dominant-baseline="central" id="driveModeText"></text>
+
+    <image x="18" y="46" width="14" height="14" href="/ui/common/tabbyzTacho/icons/lowBeam.svg" id="lowBeamIcon" visibility="hidden"/>
+    <image x="18" y="46" width="14" height="14" href="/ui/common/tabbyzTacho/icons/highBeam.svg" id="highBeamIcon" visibility="hidden"/>
+    <image x="22" y="59" width="14" height="14" href="/ui/common/tabbyzTacho/icons/pBrake.svg" id="pBrakeIcon" visibility="hidden"/>
+
+    <image x="39" y="17" width="8" height="8" href="/ui/common/tabbyzTacho/icons/leftIndicator.svg" id="leftSignalIcon" visibility="hidden"/>
+    <image x="53" y="17" width="8" height="8" href="/ui/common/tabbyzTacho/icons/rightIndicator.svg" id="rightSignalIcon" visibility="hidden"/>
+
+    <text x="74" y="52" text-anchor="middle" dominant-baseline="central" id="absIcon" class="warning" visibility="hidden">ABS</text>
+    <text x="73" y="61" text-anchor="middle" dominant-baseline="central" id="escIcon" class="warning" visibility="hidden">ESC</text>
+    <text x="70" y="70" text-anchor="middle" dominant-baseline="central" id="tcIcon" class="warning" visibility="hidden">TC</text>
+
+    <script href="/ui/common/tabbyzTacho/library.js"></script>
+    <script href="svg-script.js"></script>
+</svg>

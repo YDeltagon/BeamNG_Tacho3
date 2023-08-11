@@ -1,0 +1,122 @@
+<svg
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg">
+    
+    <style>
+    @font-face {
+        font-family: Roboto;
+        font-weight: 400;
+        src: url(/ui/common/tabbyzTacho/fonts/Roboto-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: Roboto;
+        font-weight: 500;
+        src: url(/ui/common/tabbyzTacho/fonts/Roboto-Medium.ttf);
+    }
+
+    .thickStroke {
+        stroke-width: 3;
+    }
+    .thinStroke {
+        stroke-width: 1.5;
+    }
+    .veryThinStroke {
+        stroke-width:0.8;
+    }
+
+    #background {
+        fill: #000b;
+    }
+    text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        fill: #fff;
+    }
+    #boostCurveNegative {
+        stroke: #9fcce8;
+    }
+    #boostCurvePositive {
+        stroke: #fff;
+    }
+    #boostCurveMarkers, #secondBoostCurveMarkers {
+        stroke: #000a;
+    }
+    #boostCurveBackground {
+        stroke: #fff4;
+    }
+    #boostCurveRedline {
+        stroke: #f006;
+    }
+    #boostCurveNegativeBackground {
+        stroke: #008dbe66;
+    }
+
+    #boostText {
+        font-size: 5px;
+    }
+    #boostUnitText {
+        font-size: 2px;
+        opacity: 0.9;
+    }
+    </style>
+    <circle
+        id="background"
+        cx="10"
+        cy="10"
+        r="9.5"
+    />
+    <path
+        style="fill:none;"
+        id="boostCurveBackground"
+        class="thickStroke"
+        d="M 6,16.9282 A 8 8 0 1 1 14,16.9282"
+    />
+    <path
+        style="fill:none;"
+        id="boostCurveNegativeBackground"
+        class="thickStroke"
+        d="M 2,10 A 8 8 0 0 0 6,16.9282"
+    />
+    <path
+        style="fill:none;"
+        id="boostCurveNegative"
+        class="thickStroke"
+        stroke-dasharray="0 9999"
+        d="M 2,10 A 8 8 0 0 0 6,16.9282"
+    />
+    <path
+        style="fill:none;"
+        id="boostCurvePositive"
+        class="thickStroke"
+        stroke-dasharray="0 9999"
+        d="M 2,10 A 8 8 0 1 1 14,16.9282"
+    />
+    <path
+        style="fill:none;"
+        id="boostCurveRedline"
+        class="thickStroke"
+        d="M 18,10 A 8 8 0 0 1 14,16.9282"
+    />
+    <path
+        style="fill:none;"
+        id="boostCurveMarkers"
+        class="thinStroke"
+        stroke-dasharray="0 9999"
+        d="M 6,16.9282 A 8 8 0 1 1 14,16.9282"
+    />
+    <path
+        style="fill:none;"
+        id="secondBoostCurveMarkers"
+        class="veryThinStroke"
+        stroke-dasharray="0 9999"
+        d="M 6,16.9282 A 8 8 0 1 1 14,16.9282"
+    />
+
+    <text x="10" y="10" text-anchor="middle" dominant-baseline="central" id="boostText">-</text>
+    <text x="10" y="13" text-anchor="middle" dominant-baseline="hanging" id="boostUnitText">-</text>
+
+    <script href="/ui/common/tabbyzTacho/library.js"></script>
+    <script href="svg-script.js"></script>
+</svg>

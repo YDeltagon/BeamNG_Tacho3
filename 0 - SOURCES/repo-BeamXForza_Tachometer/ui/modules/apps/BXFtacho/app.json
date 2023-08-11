@@ -1,0 +1,18 @@
+{
+  "domElement": "<bxftacho></bxftacho>",
+  "name": "BeamXForza Tachometer",
+  "types": [
+    "ui.apps.categories.vehicle_info"
+  ],
+  "description": "Custom Tachometer for BeamXForza Mod",
+  "css": {
+    "bottom": "5px",
+    "height": "400px",
+    "width": "400px",
+    "right": "1px"
+  },
+  "preserveAspectRatio": true,
+  "author": "beamng.ui Team & Galaxia",
+  "version": "2.0",
+  "directive": "bxftacho"
+}
