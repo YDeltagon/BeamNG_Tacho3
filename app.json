@@ -1,0 +1,35 @@
+{
+  "//comment_1": "The DOM element for the app",
+  "domElement": "<tacho2></tacho2>",
+
+  "//comment_2": "The name of the app",
+  "name": "ui.apps.tacho2+.name",
+
+  "//comment_3": "The category of the app",
+  "types": [
+    "ui.apps.categories.vehicle_info"
+  ],
+
+  "//comment_4": "Description of the app",
+  "description": "more advanced Tacho+",
+
+  "//comment_5": "CSS styling for the app's positioning and dimensions",
+  "css": {
+    "bottom": "5px",
+    "height": "300px",
+    "width": "300px",
+    "right": "5px"
+  },
+
+  "//comment_6": "Preserve the aspect ratio of the app",
+  "preserveAspectRatio": true,
+
+  "//comment_7": "Author of the app",
+  "author": "YDeltagon",
+
+  "//comment_8": "Version of the app",
+  "version": "0.1",
+
+  "//comment_9": "The AngularJS directive for the app",
+  "directive": "tacho2+"
+}
