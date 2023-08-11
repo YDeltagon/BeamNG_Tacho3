@@ -780,9 +780,9 @@
        y="177.85065"
        id="tspan4449-43"
        sodipodi:linespacing="125%"
-       inkscape:label="#tacho2speed"><tspan
+       inkscape:label="#tacho3speed"><tspan
          sodipodi:role="line"
-         id="tacho2speed"
+         id="tacho3speed"
          x="329.88641"
          y="177.85065"
          style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Squada One;-inkscape-font-specification:Squada One">0</tspan></text>
@@ -791,13 +791,13 @@
        style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.8;stroke:none;display:inline;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue"
        x="330"
        y="350"
-       id="speed_units"
+       id="hpkghppkg"
        sodipodi:linespacing="125%"
-       inkscape:label="#speed_units"><tspan
+       inkscape:label="#hpkghppkg"><tspan
          sodipodi:role="line"
-         id="speedunit"
+         id="hpkghppkg"
          x="330"
-         y="350">mph</tspan></text>
+         y="350">1000-10001/1</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
@@ -808,7 +808,7 @@
        inkscape:label="#text4447-1-3"
        transform="matrix(1,0,-0.13142611,1,0,0)"><tspan
          sodipodi:role="line"
-         id="tacho2gear"
+         id="tacho3gear"
          x="387.99445"
          y="468"
          style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Squada One;-inkscape-font-specification:Squada One">4</tspan></text>
@@ -986,7 +986,7 @@
        inkscape:connector-curvature="0"
        inkscape:label="#path4258-6" />
     <text
-       inkscape:label="#tacho2speed"
+       inkscape:label="#tacho3airspeed"
        sodipodi:linespacing="125%"
        id="text3900"
        y="275.12662"
@@ -996,11 +996,11 @@
          style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Squada One;-inkscape-font-specification:Squada One"
          y="275.12662"
          x="329.88641"
-         id="tspan3902"
+         id="tacho3airspeed"
          sodipodi:role="line">0</tspan></text>
     <text
        transform="matrix(1,0,-0.13142611,1,0,0)"
-       inkscape:label="#text4447-1-3"
+       inkscape:label="#tacho3maxgear"
        sodipodi:linespacing="125%"
        id="text3908"
        y="515"
@@ -1010,7 +1010,7 @@
          style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Squada One;-inkscape-font-specification:Squada One"
          y="515"
          x="394.17148"
-         id="tspan3910"
+         id="tacho3maxgear"
          sodipodi:role="line">4</tspan></text>
   </g>
   <g
@@ -2076,6 +2076,7 @@ document.getStreams = function () {
   return ['electrics', 'engineInfo'];
 };
 
+// var
 var width  = 660;
 var height = 660;
 var initialized = false;
@@ -2084,7 +2085,6 @@ var dashSize = 5;
 
 
 // elements
-
 // oil temp
 var oilTempBar = document.getElementById('temp');
 var oilTempBarLen = oilTempBar.getTotalLength();
@@ -2092,12 +2092,20 @@ oilTempBar.style['stroke-dasharray'] = oilTempBarLen + ' ' + oilTempBarLen;
 var oilTempIcoOff = document.getElementById('ico_temp');
 var oilTempIcoOn = document.getElementById('ico_temp_on');
 
-// speed
-var speedText = document.getElementById('tacho2speed');
-speedText.textContent = '';
+// speed and airspeed
+var speedText = document.getElementById('tacho3speed');
+var airspeedText = document.getElementById('tacho3airspeed');
 
-// gear
-var gearText = document.getElementById('tacho2gear');
+// gear and maxgear
+var gearText = document.getElementById('tacho3gear');
+var maxgearText = document.getElementById('tacho3maxgear');
+
+// HorsePower - Kilograme - HP per KG 
+var hpkghppkgText = document.getElementById('hpkghppkg');
+var pstext = 0;
+var hptext = 0;
+var kgtext = 0;
+var hppkgtext = 0;
 
 // revcurve
 var revCurve = document.getElementById('revcurve');
@@ -2108,14 +2116,12 @@ revCurve.style['stroke-dasharray'] = revCurveLen + ' ' + revCurveLen;
 var revCurveDashes = document.getElementById('revcurve_dashes');
 var revCurveDashesLen = revCurveDashes.getTotalLength();
 
-
 // fuel
 var fuelBar = document.getElementById('fuel');
 var fuelBarLen = fuelBar.getTotalLength();
 fuelBar.style['stroke-dasharray'] = fuelBarLen + ' ' + fuelBarLen;
 var fuelWarnIcoOff = document.getElementById('ico_fuel');
 var fuelWarnIcoOn = document.getElementById('ico_fuel_on');
-
 
 // redline
 var redLine = document.getElementById('rpm_redline');
@@ -2129,6 +2135,7 @@ rpmTextGuideLine.style['display'] = 'none';
 // the rpm text
 var rpmTextSize = 50; // in px
 var maxRpmTexts = 13;
+
 // setup + hide all
 for(var k = 1; k &lt; maxRpmTexts; k++) {
   document.getElementById('rpmtext' + k).style['visibility'] = 'hidden';
@@ -2136,7 +2143,6 @@ for(var k = 1; k &lt; maxRpmTexts; k++) {
 }
 var rpm_max = 8000;
 //maxRpmTexts = 3; // this can artifically limit the number of rpm splits
-
 
 // revneedle
 var revNeedle = document.getElementById('revneedle');
@@ -2154,15 +2160,16 @@ var icoLightsOff = document.getElementById('ico_lights');
 var icoLightsOn = document.getElementById('ico_lights_on');
 var icoLightsHigh = document.getElementById('ico_lights_high');
 
-var speedUnitText = document.getElementById('speedunit');
-
 var testVar = 0; // for the test mode
 var displayMode = 2;
 
 function applyData(data) {
   speedText.textContent = data.speedtext;
-  if (speedText.textContent == &quot;-Infinity&quot; || speedText.textContent == &quot;Infinity&quot;) { speedText.textContent = &quot;-&quot; };
+  if (speedText.textContent == "-Infinity" || speedText.textContent == "Infinity") { speedText.textContent = "-" };
+  airspeedText.textContent = data.airspeedtext;
   gearText.textContent = data.geartext;
+  maxgearText.textContent = data.maxgeartext;
+  hpkghppkgText.textContent = data.hpkghppkgtext;
 
   // fuel
   fuelBar.style['stroke-dashoffset'] = (1 - data.fuel) * fuelBarLen;
@@ -2253,13 +2260,9 @@ document.update = function (streams) {
   var isStreamValid = streams.engineInfo &amp;&amp; streams.engineInfo[1] !== undefined &amp;&amp; streams.engineInfo[1] !== 0 &amp;&amp; streams.electrics;
 
   //console.log(streams);
-
   if(!initialized) {
-
     document.reset();
-
     if( isStreamValid ) {
-
       rpm_max = Math.round(streams.engineInfo[1] / 1000) * 1000 + 1000; // we round up to the nearest 1000
 
       // things that need to do once (and depending on the vehicle attributes)
@@ -2274,7 +2277,7 @@ document.update = function (streams) {
       redLine.style['stroke-dashoffset'] = -upshiftRPM_perc * redLineLen;
 
       var dashCount = Math.round(rpm_max / 1000) - 1;
-      if(dashCount &gt; maxRpmTexts) { dashCount = maxRpmTexts; }
+      if(dashCount > maxRpmTexts) { dashCount = maxRpmTexts; }
 
       var dashes = (revCurveDashesLen - dashSize * dashCount) / (dashCount + 1);
       revCurveDashes.style['stroke-dasharray'] = dashSize + ' ' + dashes;
@@ -2294,6 +2297,21 @@ document.update = function (streams) {
         document.getElementById('rpmtext' + (k + 1)).style['visibility'] = 'visible';
       }
 
+      //MaxGear
+      var maxFGears = streams.engineInfo[6];
+      data.maxgeartext = "/" + maxFGears;
+
+      //MaxHP
+      //for (var key in streams.engineConfig) {
+      //  if (streams.engineConfig[key].isPresent) {
+      //    pstext = Math.max(pstext, streams.engineConfig[key].power.max);
+      //  }
+      //}
+      //pstext = Math.ceil(pstext / 250) * 250;
+      //var hptext = pstext * 0.98632;
+      data.hpkghppkgtext = pstext + '-' + hptext + '-' + kgtext;
+
+
       //console.log(streams);
       initialized = true;
     }
@@ -2308,25 +2326,23 @@ document.update = function (streams) {
   if (displayMode == 2) {
     // real data mode, no animation
     if(streams.electrics.wheelspeed) {
+      data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
       data.speedtext = UnitSpeed(streams.electrics.wheelspeed);
-      if (streams.electrics.wheelspeed &gt; 9000) {
-        speedUnitText.textContent = 'brrrr';
-      }
     } else if (streams.electrics.airspeed) {
-      data.speedtext = UnitSpeed(streams.electrics.airspeed);
+      data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
     }
     (function () {
-      if(streams.engineInfo[13] == &quot;manual&quot;) {
+      if(streams.engineInfo[13] == "manual") {
         var gear = streams.engineInfo[5];
         var gearStr = gear.toString();
 
         if(gear == 0) gearStr = 'N';
         else if(gear == -1) gearStr = 'R';
-        else if(-gear &gt; 1) gearStr = 'R' + (-gear);
+        else if(-gear > 1) gearStr = 'R' + (-gear);
 
         data.geartext = gearStr;
       } else {
-        data.geartext = [&quot;P&quot;,&quot;R&quot;,&quot;N&quot;,&quot;D&quot;,&quot;2&quot;,&quot;1&quot;][Math.round(streams.electrics.gear_A*5)];
+        data.geartext = ["P","R","N","D","2","1"][Math.round(streams.electrics.gear_A*5)];
       }
     })();
 
@@ -2343,9 +2359,11 @@ document.update = function (streams) {
   } else if (displayMode == 0) {
     // starting animation
     testVar = testVar + 0.04;
-    if(testVar &gt; 1) testVar = 1;
+    if(testVar > 1) testVar = 1;
     data.speedtext = Math.round(testVar * 100) ;
+    data.airspeedtext = Math.round(testVar * 100) ;
     data.geartext = Math.round(testVar * 5);
+    data.maxgeartext = Math.round(testVar * 5);
     data.fuel = testVar;
     var boolTest = true;  //Math.round(testVar * 10) % 10;
     data.parkingBrake = boolTest;
@@ -2356,24 +2374,27 @@ document.update = function (streams) {
     data.lowBeam = boolTest;
     data.highBeam = !boolTest;
     data.rpm = testVar;
-    if(testVar &gt;= 1) {
+    if(testVar >= 1) {
       testVar = 0;
       displayMode = 1;
     }
 
   } else if (displayMode == 1) {
-    // starting animation -&gt; real data transition
+    // starting animation -> real data transition
 
     if(streams.electrics.wheelspeed) {
       data.speedtext = UnitSpeed(streams.electrics.wheelspeed);
+      data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
     } else {
       data.speedtext = '';
-      speedUnitText.textContent = '';
+      data.airspeedtext = '';
     }
 
     (function () {
       var gear = streams.engineInfo[5];
       var gearStr = gear.toString();
+      var maxFGears = streams.engineInfo[6];
+      data.maxgeartext = "/" + maxFGears;
       if(gear == 0) {
         gearStr = 'N';
       }
@@ -2419,7 +2440,6 @@ var UiUnitscallback;
 
 function UnitSpeed (val) {
   var convertedVal = UiUnitscallback(val, 'speed');
-  speedUnitText.textContent = convertedVal.unit;
   return Math.round(convertedVal.val);
 }
 
