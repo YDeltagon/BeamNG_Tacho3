@@ -1,0 +1,19 @@
+{
+  "domElement": "<simple-engine-debug></simple-engine-debug>",
+  "name": "ui.apps.engine_debug.name",
+  "types": [
+    "ui.apps.categories.debug"
+  ],
+  "description": "Displays general information about the engine, drivetrain and vehicle for debug purposes.",
+  "css": {
+    "left": "0px",
+    "height": "auto",
+    "width": "270px",
+    "min-width": "260px",
+    "min-height": "190px",
+    "top": "0px"
+  },
+  "author": "beamng.ui Team",
+  "version": "0.2",
+  "directive": "simpleEngineDebug"
+}

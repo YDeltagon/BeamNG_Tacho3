@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-stylesheet href="app.css" type="text/css"?><!-- Created with Inkscape (http://www.inkscape.org/) -->
+<?xml-stylesheet href="app.css" type="text/css"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -16,7 +17,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="tacho3.svg"
+   sodipodi:docname="tacho.svg"
    inkscape:export-filename="C:\Users\sam\Desktop\bitmap.png"
    inkscape:export-xdpi="181.33821"
    inkscape:export-ydpi="181.33821">
@@ -689,15 +690,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8847266"
-     inkscape:cx="282.64523"
-     inkscape:cy="297.58244"
+     inkscape:zoom="2"
+     inkscape:cx="533.38894"
+     inkscape:cy="366.57109"
      inkscape:document-units="px"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="revcurvemask"
      showgrid="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
+     inkscape:window-height="1027"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      fit-margin-top="0"
@@ -752,7 +753,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="new"
-     style="display:inline">
+     style="display:none">
     <circle
        transform="translate(-150,-214)"
        style="color:#000000;fill:url(#radialGradient3997);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:16;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -775,43 +776,43 @@
        clip-path="url(#clipPath4407-8)" />
     <text
        xml:space="preserve"
-       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       style="font-size:159.64709473px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
        x="329.88641"
-       y="177.85065"
+       y="289.30463"
        id="tspan4449-43"
        sodipodi:linespacing="125%"
-       inkscape:label="#tacho3speed"><tspan
+       inkscape:label="#tacho2speed"><tspan
          sodipodi:role="line"
-         id="tacho3speed"
+         id="tacho2speed"
          x="329.88641"
-         y="177.85065"
-         style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Squada One;-inkscape-font-specification:Squada One">0</tspan></text>
+         y="289.30463"
+         style="font-size:159.64709473px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Squada One;-inkscape-font-specification:Squada One">0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.8;stroke:none;display:inline;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue"
+       style="font-size:65px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.8;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
        x="330"
-       y="350"
-       id="hpkghppkg"
+       y="348"
+       id="speed_units"
        sodipodi:linespacing="125%"
-       inkscape:label="#hpkghppkg"><tspan
+       inkscape:label="#speed_units"><tspan
          sodipodi:role="line"
-         id="hpkghppkg"
+         id="speedunit"
          x="330"
-         y="350">1000-10001/1</tspan></text>
+         y="348">mph</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
-       x="387.99445"
-       y="468"
+       style="font-size:132.1942749px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       x="386.67343"
+       y="457.94861"
        id="tspan4449-4-3"
        sodipodi:linespacing="125%"
        inkscape:label="#text4447-1-3"
        transform="matrix(1,0,-0.13142611,1,0,0)"><tspan
          sodipodi:role="line"
-         id="tacho3gear"
-         x="387.99445"
-         y="468"
-         style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Squada One;-inkscape-font-specification:Squada One">4</tspan></text>
+         id="tacho2gear"
+         x="386.67343"
+         y="457.94861"
+         style="font-size:132.1942749px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Squada One;-inkscape-font-specification:Squada One">4</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:46px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
@@ -966,6 +967,17 @@
          id="rpmtext14"
          x="520.0791"
          y="228.94992">14</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:27.92028999px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.80952382;stroke:none;display:inline;font-family:Open Sans;-inkscape-font-specification:Open Sans Bold"
+       x="330.09229"
+       y="498.18045"
+       id="text4447-2-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4449-3-1"
+         x="330.09229"
+         y="498.18045">x1000 RPM</tspan></text>
     <path
        style="color:#000000;fill:none;stroke:#000000;stroke-width:19.3402729;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.49735449;stroke-dasharray:none;stroke-dashoffset:625.48999786;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        clip-path="none"
@@ -985,33 +997,6 @@
        id="temp"
        inkscape:connector-curvature="0"
        inkscape:label="#path4258-6" />
-    <text
-       inkscape:label="#tacho3airspeed"
-       sodipodi:linespacing="125%"
-       id="text3900"
-       y="275.12662"
-       x="329.88641"
-       style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
-       xml:space="preserve"><tspan
-         style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Squada One;-inkscape-font-specification:Squada One"
-         y="275.12662"
-         x="329.88641"
-         id="tacho3airspeed"
-         sodipodi:role="line">0</tspan></text>
-    <text
-       transform="matrix(1,0,-0.13142611,1,0,0)"
-       inkscape:label="#tacho3maxgear"
-       sodipodi:linespacing="125%"
-       id="text3908"
-       y="515"
-       x="394.17148"
-       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
-       xml:space="preserve"><tspan
-         style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Squada One;-inkscape-font-specification:Squada One"
-         y="515"
-         x="394.17148"
-         id="tacho3maxgear"
-         sodipodi:role="line">4</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1039,7 +1024,7 @@
          sodipodi:nodetypes="cssc"
          transform="matrix(0.80555556,0,0,0.80555556,214.16667,278.16667)" />
       <path
-         style="color:#000000;fill:none;stroke:#9c0000;stroke-width:77.05258179;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:0.66137564;stroke-dasharray:none;stroke-dashoffset:604.64843154;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         style="color:#000000;fill:none;stroke:#9c0000;stroke-width:77.05258179000000500;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:0.66137564;stroke-dasharray:none;stroke-dashoffset:604.64843154000016000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          d="M 330,610 C 175.36027,610 50,484.63973 50,330 50,175.36027 175.36027,50 330,50 484.63973,50 610,175.36027 610,330"
          id="rpm_redline"
          inkscape:connector-curvature="0"
@@ -1074,7 +1059,7 @@
      inkscape:label="unused"
      style="display:none">
     <path
-       style="fill:none;stroke:#000000;stroke-width:66.66205597;stroke-miterlimit:0.40000001;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:66.66205597;stroke-miterlimit:0.40000001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 490,616.66897 C 331.6771,616.66897 203.33103,488.3229 203.33103,330 203.33103,171.67709 331.67709,43.331027 490,43.331028 648.3229,43.331028 776.66897,171.6771 776.66897,330"
        id="path4531-4-3"
        inkscape:connector-curvature="0"
@@ -1092,7 +1077,7 @@
        transform="translate(-4.2182737e-6,-2.0000051)">
       <path
          transform="matrix(0.43850147,2.6141077e-4,-2.6141077e-4,0.43850147,320.9902,18.916914)"
-         style="fill:#ff7900;fill-opacity:1;stroke:#ffffff;stroke-width:12;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         style="display:inline;fill:#ff7900;fill-opacity:1;stroke:#ffffff;stroke-width:12;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 631.44636,979.59082 a 65.760933,65.760933 0 0 1 -65.76094,65.76098 65.760933,65.760933 0 0 1 -65.76093,-65.76098 65.760933,65.760933 0 0 1 65.76093,-65.76093 65.760933,65.760933 0 0 1 65.76094,65.76093 z"
          id="path4551-2-7"
          inkscape:connector-curvature="0" />
@@ -1104,7 +1089,7 @@
          inkscape:connector-curvature="0"
          id="path4551-7-7-3"
          d="m 546.9327,480.53664 c -10.16748,-6.97507 -16.83385,-18.68164 -16.82592,-31.94291 0.008,-13.00305 6.43054,-24.50375 16.27369,-31.51076"
-         style="fill:none;stroke:#ffffff;stroke-width:5.26201868;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;display:inline" />
+         style="display:inline;fill:none;stroke:#ffffff;stroke-width:5.26201868;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" />
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -1113,44 +1098,44 @@
          inkscape:connector-curvature="0"
          id="path4551-7-4-7-72"
          d="m 590.24076,480.56245 c 10.17587,-6.96293 16.8562,-18.66157 16.86414,-31.92282 0.008,-13.00303 -6.40141,-24.51142 -16.23624,-31.5301"
-         style="fill:none;stroke:#ffffff;stroke-width:5.26201868;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;display:inline" />
+         style="display:inline;fill:none;stroke:#ffffff;stroke-width:5.26201868;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" />
       <g
          id="flowRoot5902-7-4"
-         style="font-size:55px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:-3.45999861px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Open Sans;-inkscape-font-specification:Open Sans Bold"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:55px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';letter-spacing:-3.45999861px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
          transform="matrix(0.43849858,-0.00161469,0.00161469,0.43849858,259.17408,95.334998)">
         <path
            id="path3978-3-5"
-           style="-inkscape-font-specification:Open Sans Bold"
+           style="-inkscape-font-specification:'Open Sans Bold'"
            d="m 548.35205,1001.1788 -2.84668,-9.34567 -14.31396,0 -2.84668,9.34567 -8.96973,0 13.85742,-39.4238 10.17822,0 13.91114,39.4238 z m -4.83398,-16.32809 c -2.63186,-8.4684 -4.11339,-13.25762 -4.44458,-14.36768 -0.33124,-1.10999 -0.56846,-1.98727 -0.71167,-2.63183 -0.59084,2.29169 -2.28274,7.95819 -5.07569,16.99951 z"
            inkscape:connector-curvature="0" />
         <path
            id="path3980-3-4"
-           style="-inkscape-font-specification:Open Sans Bold"
+           style="-inkscape-font-specification:'Open Sans Bold'"
            d="m 558.77633,961.91614 12.21924,0 c 5.56801,4e-5 9.60975,0.79227 12.12524,2.37671 2.51543,1.5845 3.77316,4.10444 3.77319,7.55981 -3e-5,2.3454 -0.55056,4.27004 -1.65161,5.77393 -1.1011,1.50392 -2.56472,2.40806 -4.39087,2.7124 l 0,0.26855 c 2.48858,0.55504 4.28342,1.59345 5.38453,3.11524 1.10104,1.52182 1.65157,3.54493 1.65161,6.06933 -4e-5,3.58074 -1.29357,6.37371 -3.88062,8.37891 -2.5871,2.00518 -6.10069,3.00778 -10.54077,3.00778 l -14.68994,0 z m 8.32519,15.54931 4.83399,0 c 2.25584,3e-5 3.88954,-0.34909 4.90112,-1.04736 1.01153,-0.69822 1.51731,-1.853 1.51734,-3.46436 -3e-5,-1.50387 -0.55057,-2.58257 -1.65162,-3.23608 -1.10109,-0.65345 -2.84222,-0.98019 -5.22338,-0.98022 l -4.37745,0 z m 0,6.60645 0,10.23193 5.42481,0 c 2.29164,1e-5 3.98354,-0.43863 5.07568,-1.31592 1.0921,-0.87727 1.63816,-2.22004 1.63819,-4.02832 -3e-5,-3.25844 -2.3275,-4.88767 -6.98243,-4.88769 z"
            inkscape:connector-curvature="0" />
         <path
            id="path3982-5-4"
-           style="-inkscape-font-specification:Open Sans Bold"
+           style="-inkscape-font-specification:'Open Sans Bold'"
            d="m 615.44572,990.27551 c -2e-5,3.54493 -1.27566,6.3379 -3.8269,8.37891 -2.55129,2.04098 -6.10069,3.06148 -10.64819,3.06148 -4.18947,0 -7.89552,-0.7877 -11.11817,-2.36324 l 0,-7.73437 c 2.64974,1.18164 4.89217,2.01416 6.7273,2.49755 1.83511,0.48341 3.51358,0.72511 5.0354,0.7251 1.82615,10e-6 3.22711,-0.34911 4.20288,-1.04736 0.97573,-0.69824 1.4636,-1.73665 1.46362,-3.11524 -2e-5,-0.76984 -0.21486,-1.45466 -0.64453,-2.05444 -0.42971,-0.59976 -1.06081,-1.17715 -1.89331,-1.73218 -0.83254,-0.555 -2.5289,-1.44123 -5.08911,-2.65869 -2.3991,-1.12791 -4.19841,-2.21108 -5.39795,-3.24951 -1.19955,-1.03839 -2.15739,-2.24689 -2.87354,-3.62549 -0.71614,-1.37855 -1.07422,-2.98988 -1.07421,-4.83398 -10e-6,-3.47328 1.17716,-6.20358 3.53149,-8.19092 2.35432,-1.98727 5.6083,-2.98092 9.76196,-2.98096 2.041,4e-5 3.98802,0.24174 5.84107,0.7251 1.853,0.48344 3.79107,1.16377 5.81421,2.04102 l -2.68555,6.47216 c -2.09475,-0.85934 -3.82693,-1.45911 -5.19653,-1.79931 -1.36965,-0.34014 -2.7169,-0.51022 -4.04175,-0.51026 -1.57554,4e-5 -2.78403,0.36706 -3.62549,1.10108 -0.84148,0.73408 -1.26222,1.69192 -1.26221,2.87353 -10e-6,0.73408 0.17008,1.37413 0.51026,1.92017 0.34015,0.54609 0.88174,1.07424 1.62475,1.58447 0.74299,0.51028 2.50202,1.42784 5.2771,2.75269 3.67023,1.75457 6.18569,3.51361 7.54639,5.2771 1.36065,1.76352 2.04099,3.92538 2.04101,6.48559 z"
            inkscape:connector-curvature="0" />
       </g>
       <g
          id="flowRoot5902-7-5"
-         style="font-size:55px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:-3.45999861px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Open Sans;-inkscape-font-specification:Open Sans Bold"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:55px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';letter-spacing:-3.45999861px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
          transform="matrix(0.43849858,-0.00161469,0.00161469,0.43849858,317.47869,20.439182)">
         <g
            transform="matrix(0.99999322,0.00368229,-0.00368229,0.99999322,0,0)"
-           style="font-size:94.63018036px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:sans-serif"
+           style="font-style:normal;font-weight:normal;font-size:94.63018036px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            id="text4455">
           <path
              d="m 607.02483,962.46092 q 0,4.62062 -1.61722,9.05641 -1.61721,4.38958 -4.62061,7.39298 -4.11235,4.06614 -9.19502,6.14542 -5.03647,2.07927 -12.56807,2.07927 l -11.04327,0 0,22.41 -17.74316,0 0,-68.80096 29.20228,0 q 6.56127,0 11.04327,1.15515 4.5282,1.10895 7.99366,3.37305 4.15856,2.72616 6.33024,6.97713 2.2179,4.25096 2.2179,10.21155 z m -18.34384,0.41586 q 0,-2.91099 -1.57101,-4.99026 -1.57101,-2.12549 -3.65028,-2.9572 -2.77237,-1.10895 -5.40612,-1.20136 -2.63375,-0.13862 -7.02334,-0.13862 l -3.0496,0 0,20.60794 5.08267,0 q 4.52821,0 7.43919,-0.55447 2.9572,-0.55447 4.94406,-2.21789 1.70963,-1.4786 2.44893,-3.51167 0.7855,-2.07928 0.7855,-5.03647 z"
-             style="font-size:94.63018036px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Open Sans Extrabold;-inkscape-font-specification:'Open Sans Extrabold, Bold'"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:94.63018036px;line-height:125%;font-family:'Open Sans Extrabold';-inkscape-font-specification:'Open Sans Extrabold, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
              id="path4527"
              inkscape:connector-curvature="0" />
         </g>
         <path
            transform="matrix(0.99999322,0.00368229,-0.00368229,0.99999322,0,0)"
-           style="fill:none;stroke:#000000;stroke-width:5.69782162;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.69782162;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 28.554777,1230.2663 c -137.847287,0 -270.048717,-54.7596 -367.521467,-152.2324 -97.47276,-97.47273 -152.23238,-229.67416 -152.23238,-367.52145 0,-137.84729 54.75963,-270.04871 152.23238,-367.52146 97.47275,-97.47276 229.67418,-152.23238 367.521467,-152.23238 137.847293,0 270.048713,54.75962 367.521463,152.23238 97.47275,97.47275 152.23238,229.67417 152.23238,367.52146 0,137.84729 -54.75962,270.04871 -152.23238,367.52145 -97.47275,97.4728 -229.67417,152.2324 -367.521463,152.2324"
            id="text_path"
            inkscape:connector-curvature="0"
@@ -2076,7 +2061,6 @@ document.getStreams = function () {
   return ['electrics', 'engineInfo'];
 };
 
-// var
 var width  = 660;
 var height = 660;
 var initialized = false;
@@ -2085,6 +2069,7 @@ var dashSize = 5;
 
 
 // elements
+
 // oil temp
 var oilTempBar = document.getElementById('temp');
 var oilTempBarLen = oilTempBar.getTotalLength();
@@ -2092,20 +2077,12 @@ oilTempBar.style['stroke-dasharray'] = oilTempBarLen + ' ' + oilTempBarLen;
 var oilTempIcoOff = document.getElementById('ico_temp');
 var oilTempIcoOn = document.getElementById('ico_temp_on');
 
-// speed and airspeed
-var speedText = document.getElementById('tacho3speed');
-var airspeedText = document.getElementById('tacho3airspeed');
+// speed
+var speedText = document.getElementById('tacho2speed');
+speedText.textContent = '';
 
-// gear and maxgear
-var gearText = document.getElementById('tacho3gear');
-var maxgearText = document.getElementById('tacho3maxgear');
-
-// HorsePower - Kilograme - HP per KG 
-var hpkghppkgText = document.getElementById('hpkghppkg');
-var pstext = 0;
-var hptext = 0;
-var kgtext = 0;
-var hppkgtext = 0;
+// gear
+var gearText = document.getElementById('tacho2gear');
 
 // revcurve
 var revCurve = document.getElementById('revcurve');
@@ -2116,12 +2093,14 @@ revCurve.style['stroke-dasharray'] = revCurveLen + ' ' + revCurveLen;
 var revCurveDashes = document.getElementById('revcurve_dashes');
 var revCurveDashesLen = revCurveDashes.getTotalLength();
 
+
 // fuel
 var fuelBar = document.getElementById('fuel');
 var fuelBarLen = fuelBar.getTotalLength();
 fuelBar.style['stroke-dasharray'] = fuelBarLen + ' ' + fuelBarLen;
 var fuelWarnIcoOff = document.getElementById('ico_fuel');
 var fuelWarnIcoOn = document.getElementById('ico_fuel_on');
+
 
 // redline
 var redLine = document.getElementById('rpm_redline');
@@ -2135,7 +2114,6 @@ rpmTextGuideLine.style['display'] = 'none';
 // the rpm text
 var rpmTextSize = 50; // in px
 var maxRpmTexts = 13;
-
 // setup + hide all
 for(var k = 1; k &lt; maxRpmTexts; k++) {
   document.getElementById('rpmtext' + k).style['visibility'] = 'hidden';
@@ -2143,6 +2121,7 @@ for(var k = 1; k &lt; maxRpmTexts; k++) {
 }
 var rpm_max = 8000;
 //maxRpmTexts = 3; // this can artifically limit the number of rpm splits
+
 
 // revneedle
 var revNeedle = document.getElementById('revneedle');
@@ -2160,16 +2139,15 @@ var icoLightsOff = document.getElementById('ico_lights');
 var icoLightsOn = document.getElementById('ico_lights_on');
 var icoLightsHigh = document.getElementById('ico_lights_high');
 
+var speedUnitText = document.getElementById('speedunit');
+
 var testVar = 0; // for the test mode
 var displayMode = 2;
 
 function applyData(data) {
   speedText.textContent = data.speedtext;
   if (speedText.textContent == "-Infinity" || speedText.textContent == "Infinity") { speedText.textContent = "-" };
-  airspeedText.textContent = data.airspeedtext;
   gearText.textContent = data.geartext;
-  maxgearText.textContent = data.maxgeartext;
-  hpkghppkgText.textContent = data.hpkghppkgtext;
 
   // fuel
   fuelBar.style['stroke-dashoffset'] = (1 - data.fuel) * fuelBarLen;
@@ -2260,9 +2238,13 @@ document.update = function (streams) {
   var isStreamValid = streams.engineInfo &amp;&amp; streams.engineInfo[1] !== undefined &amp;&amp; streams.engineInfo[1] !== 0 &amp;&amp; streams.electrics;
 
   //console.log(streams);
+
   if(!initialized) {
+
     document.reset();
+
     if( isStreamValid ) {
+
       rpm_max = Math.round(streams.engineInfo[1] / 1000) * 1000 + 1000; // we round up to the nearest 1000
 
       // things that need to do once (and depending on the vehicle attributes)
@@ -2297,21 +2279,6 @@ document.update = function (streams) {
         document.getElementById('rpmtext' + (k + 1)).style['visibility'] = 'visible';
       }
 
-      //MaxGear
-      var maxFGears = streams.engineInfo[6];
-      data.maxgeartext = "/" + maxFGears;
-
-      //MaxHP
-      //for (var key in streams.engineConfig) {
-      //  if (streams.engineConfig[key].isPresent) {
-      //    pstext = Math.max(pstext, streams.engineConfig[key].power.max);
-      //  }
-      //}
-      //pstext = Math.ceil(pstext / 250) * 250;
-      //var hptext = pstext * 0.98632;
-      data.hpkghppkgtext = pstext + '-' + hptext + '-' + kgtext;
-
-
       //console.log(streams);
       initialized = true;
     }
@@ -2326,12 +2293,12 @@ document.update = function (streams) {
   if (displayMode == 2) {
     // real data mode, no animation
     if(streams.electrics.wheelspeed) {
-      data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
-      data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
       data.speedtext = UnitSpeed(streams.electrics.wheelspeed);
+      if (streams.electrics.wheelspeed &gt; 9000) {
+        speedUnitText.textContent = 'brrrr';
+      }
     } else if (streams.electrics.airspeed) {
-      data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
-      data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
+      data.speedtext = UnitSpeed(streams.electrics.airspeed);
     }
     (function () {
       if(streams.engineInfo[13] == "manual") {
@@ -2363,9 +2330,7 @@ document.update = function (streams) {
     testVar = testVar + 0.04;
     if(testVar > 1) testVar = 1;
     data.speedtext = Math.round(testVar * 100) ;
-    data.airspeedtext = Math.round(testVar * 100) ;
     data.geartext = Math.round(testVar * 5);
-    data.maxgeartext = Math.round(testVar * 5);
     data.fuel = testVar;
     var boolTest = true;  //Math.round(testVar * 10) % 10;
     data.parkingBrake = boolTest;
@@ -2386,17 +2351,14 @@ document.update = function (streams) {
 
     if(streams.electrics.wheelspeed) {
       data.speedtext = UnitSpeed(streams.electrics.wheelspeed);
-      data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
     } else {
       data.speedtext = '';
-      data.airspeedtext = '';
+      speedUnitText.textContent = '';
     }
 
     (function () {
       var gear = streams.engineInfo[5];
       var gearStr = gear.toString();
-      var maxFGears = streams.engineInfo[6];
-      data.maxgeartext = "/" + maxFGears;
       if(gear == 0) {
         gearStr = 'N';
       }
@@ -2442,6 +2404,7 @@ var UiUnitscallback;
 
 function UnitSpeed (val) {
   var convertedVal = UiUnitscallback(val, 'speed');
+  speedUnitText.textContent = convertedVal.unit;
   return Math.round(convertedVal.val);
 }
 
