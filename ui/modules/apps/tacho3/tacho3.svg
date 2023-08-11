@@ -780,9 +780,9 @@
        y="177.85065"
        id="tspan4449-43"
        sodipodi:linespacing="125%"
-       inkscape:label="#tacho2speed"><tspan
+       inkscape:label="#tacho3speed"><tspan
          sodipodi:role="line"
-         id="tacho2speed"
+         id="tacho3speed"
          x="329.88641"
          y="177.85065"
          style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Squada One;-inkscape-font-specification:Squada One">0</tspan></text>
@@ -808,7 +808,7 @@
        inkscape:label="#text4447-1-3"
        transform="matrix(1,0,-0.13142611,1,0,0)"><tspan
          sodipodi:role="line"
-         id="tacho2gear"
+         id="tacho3gear"
          x="387.99445"
          y="468"
          style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Squada One;-inkscape-font-specification:Squada One">4</tspan></text>
@@ -986,7 +986,7 @@
        inkscape:connector-curvature="0"
        inkscape:label="#path4258-6" />
     <text
-       inkscape:label="#tacho2speed"
+       inkscape:label="#tacho3airspeed"
        sodipodi:linespacing="125%"
        id="text3900"
        y="275.12662"
@@ -996,11 +996,11 @@
          style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Squada One;-inkscape-font-specification:Squada One"
          y="275.12662"
          x="329.88641"
-         id="tspan3902"
+         id="tacho3airspeed"
          sodipodi:role="line">0</tspan></text>
     <text
        transform="matrix(1,0,-0.13142611,1,0,0)"
-       inkscape:label="#text4447-1-3"
+       inkscape:label="#tacho3maxgear"
        sodipodi:linespacing="125%"
        id="text3908"
        y="515"
@@ -1010,7 +1010,7 @@
          style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Squada One;-inkscape-font-specification:Squada One"
          y="515"
          x="394.17148"
-         id="tspan3910"
+         id="tacho3maxgear"
          sodipodi:role="line">4</tspan></text>
   </g>
   <g
@@ -2093,11 +2093,19 @@ var oilTempIcoOff = document.getElementById('ico_temp');
 var oilTempIcoOn = document.getElementById('ico_temp_on');
 
 // speed
-var speedText = document.getElementById('tacho2speed');
+var speedText = document.getElementById('tacho3speed');
 speedText.textContent = '';
 
+// airspeed
+var airspeedText = document.getElementById('tacho3airspeed');
+airspeedText.textContent = '';
+
 // gear
-var gearText = document.getElementById('tacho2gear');
+var gearText = document.getElementById('tacho3gear');
+
+// maxgear
+var maxgearText = document.getElementById('tacho3maxgear');
+maxgearText.textContent = '';
 
 // revcurve
 var revCurve = document.getElementById('revcurve');
@@ -2162,7 +2170,13 @@ var displayMode = 2;
 function applyData(data) {
   speedText.textContent = data.speedtext;
   if (speedText.textContent == &quot;-Infinity&quot; || speedText.textContent == &quot;Infinity&quot;) { speedText.textContent = &quot;-&quot; };
+  airspeedText.textContent = data.airspeedtext;
   gearText.textContent = data.geartext;
+  maxgearText.textContent = data.maxgearText;
+  if (maxgearText.textContent == "-Infinity" || maxgearText.textContent == "Infinity") { 
+      maxgearText.textContent = "-"; 
+  }
+
 
   // fuel
   fuelBar.style['stroke-dashoffset'] = (1 - data.fuel) * fuelBarLen;
@@ -2294,6 +2308,13 @@ document.update = function (streams) {
         document.getElementById('rpmtext' + (k + 1)).style['visibility'] = 'visible';
       }
 
+      if (streams.engineInfo[13] == "manual") {
+        var maxFGears = streams.engineInfo[6];
+        data.maxgearText = "/" + maxFGears;
+      } else {
+        data.maxgearText = '';
+      }
+
       //console.log(streams);
       initialized = true;
     }
@@ -2308,12 +2329,13 @@ document.update = function (streams) {
   if (displayMode == 2) {
     // real data mode, no animation
     if(streams.electrics.wheelspeed) {
+      data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
       data.speedtext = UnitSpeed(streams.electrics.wheelspeed);
       if (streams.electrics.wheelspeed &gt; 9000) {
         speedUnitText.textContent = 'brrrr';
       }
     } else if (streams.electrics.airspeed) {
-      data.speedtext = UnitSpeed(streams.electrics.airspeed);
+      data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
     }
     (function () {
       if(streams.engineInfo[13] == &quot;manual&quot;) {
@@ -2345,6 +2367,7 @@ document.update = function (streams) {
     testVar = testVar + 0.04;
     if(testVar &gt; 1) testVar = 1;
     data.speedtext = Math.round(testVar * 100) ;
+    data.airspeedtext = Math.round(testVar * 100) ;
     data.geartext = Math.round(testVar * 5);
     data.fuel = testVar;
     var boolTest = true;  //Math.round(testVar * 10) % 10;
@@ -2366,8 +2389,10 @@ document.update = function (streams) {
 
     if(streams.electrics.wheelspeed) {
       data.speedtext = UnitSpeed(streams.electrics.wheelspeed);
+      data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
     } else {
       data.speedtext = '';
+      data.airspeedtext = '';
       speedUnitText.textContent = '';
     }
 
