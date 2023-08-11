@@ -1,0 +1,19 @@
+{
+  "domElement": "<simple-gears></simple-gears>",
+  "name": "ui.apps.gears.name",
+  "types": [
+    "ui.apps.categories.vehicle_info"
+  ],
+  "description": "Displays current manual or automatic gear. Click the label to swap Automatic and Manual gearbox display.",
+  "css": {
+    "left": "200px",
+    "height": "50px",
+    "width": "120px",
+    "min-width": "120px",
+    "min-height": "50px",
+    "top": "200px"
+  },
+  "author": "Metalmuncher",
+  "version": "0.1",
+  "directive": "simpleGears"
+}
