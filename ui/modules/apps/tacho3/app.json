@@ -3,7 +3,7 @@
   "domElement": "<tacho3></tacho3>",
 
   "//comment_2": "The name of the app",
-  "name": "tacho3",
+  "name": "Tacho3",
 
   "//comment_3": "The category of the app",
   "types": [
@@ -11,7 +11,7 @@
   ],
 
   "//comment_4": "Description of the app",
-  "description": "A new version of Tacho",
+  "description": "A evolution of Tacho2",
 
   "//comment_5": "CSS styling for the app's positioning and dimensions",
   "css": {
