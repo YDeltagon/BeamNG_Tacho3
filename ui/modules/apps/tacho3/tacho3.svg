@@ -22,6 +22,20 @@
    inkscape:export-ydpi="181.33821">
   <defs
      id="defs4">
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect5377"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
     <linearGradient
        id="linearGradient3938">
       <stop
@@ -404,7 +418,7 @@
          offset="0"
          id="stop4359-9" />
       <stop
-         style="stop-color:#000000;stop-opacity:0.24107143;"
+         style="stop-color:#000000;stop-opacity:0.23921569;"
          offset="1"
          id="stop4361-4" />
     </linearGradient>
@@ -689,15 +703,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8847266"
-     inkscape:cx="282.64523"
-     inkscape:cy="297.58244"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="478.65792"
+     inkscape:cy="229.76932"
      inkscape:document-units="px"
      inkscape:current-layer="layer6"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      fit-margin-top="0"
@@ -710,7 +724,8 @@
      inkscape:snap-grids="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true"
-     inkscape:bbox-paths="true">
+     inkscape:bbox-paths="true"
+     inkscape:snap-global="false">
     <inkscape:grid
        type="xygrid"
        id="grid3954"
@@ -750,6 +765,26 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer16"
+     inkscape:label="UnderNew"
+     style="display:inline">
+    <a
+       id="a5417"
+       style="fill:#000000;fill-opacity:0.19607843"
+       transform="translate(113.84419,101.11627)">
+      <rect
+         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+         ry="9.965786"
+         y="788.54279"
+         x="-89.875999"
+         height="51.365639"
+         width="179.29515"
+         id="rect5397"
+         style="fill:#000000;fill-opacity:0.19607843;fill-rule:evenodd;stroke:none" />
+    </a>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="new"
      style="display:inline">
@@ -775,43 +810,41 @@
        clip-path="url(#clipPath4407-8)" />
     <text
        xml:space="preserve"
-       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       style="font-size:60px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.80000001;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
        x="329.88641"
-       y="177.85065"
+       y="188.81081"
        id="tspan4449-43"
        sodipodi:linespacing="125%"
-       inkscape:label="#tacho3speed"><tspan
+       inkscape:label="#wheelspeed"><tspan
          sodipodi:role="line"
-         id="tacho3speed"
+         id="wheelspeed"
          x="329.88641"
-         y="177.85065"
-         style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Squada One;-inkscape-font-specification:Squada One">0</tspan></text>
+         y="188.81081"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.80000001;font-family:Squada One;-inkscape-font-specification:Squada One">0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.8;stroke:none;display:inline;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue"
-       x="330"
-       y="350"
-       id="hpkghppkg"
+       style="font-size:44.18135452px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.8;stroke:none;display:inline;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue"
+       x="291.59695"
+       y="387.29398"
+       id="powertorquert"
        sodipodi:linespacing="125%"
-       inkscape:label="#hpkghppkg"><tspan
+       inkscape:label="#powertorquert"
+       transform="scale(1.1316991,0.88362711)"><tspan
          sodipodi:role="line"
-         id="hpkghppkg"
-         x="330"
-         y="350">1000-10001/1</tspan></text>
+         id="tspan3962"
+         x="291.59695"
+         y="387.29398">|</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
-       x="387.99445"
-       y="468"
-       id="tspan4449-4-3"
+       style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       x="385.55496"
+       y="449.43845"
+       id="actualgear"
        sodipodi:linespacing="125%"
-       inkscape:label="#text4447-1-3"
+       inkscape:label="#actualgear"
        transform="matrix(1,0,-0.13142611,1,0,0)"><tspan
          sodipodi:role="line"
-         id="tacho3gear"
-         x="387.99445"
-         y="468"
-         style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Squada One;-inkscape-font-specification:Squada One">4</tspan></text>
+         id="tspan3309">M4</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:46px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
@@ -986,38 +1019,125 @@
        inkscape:connector-curvature="0"
        inkscape:label="#path4258-6" />
     <text
-       inkscape:label="#tacho3airspeed"
+       inkscape:label="#airspeed"
        sodipodi:linespacing="125%"
        id="text3900"
-       y="275.12662"
+       y="291.21329"
        x="329.88641"
-       style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       style="font-size:130px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
        xml:space="preserve"><tspan
-         style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Squada One;-inkscape-font-specification:Squada One"
-         y="275.12662"
+         style="font-size:130px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Squada One;-inkscape-font-specification:Squada One"
+         y="291.21329"
          x="329.88641"
-         id="tacho3airspeed"
+         id="airspeed"
          sodipodi:role="line">0</tspan></text>
     <text
        transform="matrix(1,0,-0.13142611,1,0,0)"
-       inkscape:label="#tacho3maxgear"
+       inkscape:label="#maxgear"
        sodipodi:linespacing="125%"
-       id="text3908"
-       y="515"
-       x="394.17148"
-       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       id="maxgear"
+       y="445.83395"
+       x="473.4469"
+       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.80000001;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
        xml:space="preserve"><tspan
-         style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Squada One;-inkscape-font-specification:Squada One"
-         y="515"
-         x="394.17148"
-         id="tacho3maxgear"
-         sodipodi:role="line">4</tspan></text>
+         sodipodi:role="line"
+         id="tspan3311"
+         x="473.4469"
+         y="445.83395">/4</tspan></text>
+    <text
+       inkscape:label="#powermtorquem"
+       sodipodi:linespacing="125%"
+       id="powermtorquem"
+       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue"
+       xml:space="preserve"
+       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+       x="8.8538446"
+       y="984.86285"><tspan
+         id="tspan5259"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">7999-9999</tspan></text>
+    <text
+       inkscape:label="#fuelcr"
+       sodipodi:linespacing="125%"
+       id="fuelcr"
+       y="344.41089"
+       x="512.13123"
+       style="font-size:44.05651093px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.8;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       xml:space="preserve"
+       transform="scale(0.87584963,1.1417485)"><tspan
+         sodipodi:role="line"
+         id="tspan3625"
+         x="512.13123"
+         y="344.41089">99</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       id="x1000"
+       sodipodi:linespacing="125%"
+       inkscape:label="#x1000"
+       transform="translate(-1.2922171,-83.348018)"><textPath
+         xlink:href="#path4281"
+         startOffset="50%"
+         id="textPath3305"><tspan
+   id="tspan3304">x1000</tspan></textPath></text>
+    <text
+       inkscape:label="#powerrt"
+       sodipodi:linespacing="125%"
+       id="powerrt"
+       y="338.30597"
+       x="334.37949"
+       style="font-size:48.62142563px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:0.8;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       xml:space="preserve"
+       transform="scale(0.97242848,1.0283533)"><tspan
+         sodipodi:role="line"
+         id="tspan5379"
+         x="334.37949"
+         y="338.30597">7999</tspan></text>
+    <text
+       inkscape:label="#torquert"
+       sodipodi:linespacing="125%"
+       id="torquert"
+       y="338.30594"
+       x="343.832"
+       style="font-size:48.62142181px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:0.8;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       xml:space="preserve"
+       transform="scale(0.9724285,1.0283532)"><tspan
+         sodipodi:role="line"
+         id="tspan3633"
+         x="343.832"
+         y="338.30594">7999</tspan></text>
+    <text
+       transform="scale(0.87584963,1.1417485)"
+       xml:space="preserve"
+       style="font-size:44.05651093px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.8;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       x="235.3152"
+       y="344.41089"
+       id="oiltemp"
+       sodipodi:linespacing="125%"
+       inkscape:label="#oiltemp"><tspan
+         sodipodi:role="line"
+         id="tspan4289"
+         x="235.3152"
+         y="344.41089">130</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48.62142563px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.8;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       x="339.28427"
+       y="496.1459"
+       id="weight"
+       sodipodi:linespacing="125%"
+       inkscape:label="#weight"
+       transform="scale(0.97242853,1.0283532)"><tspan
+         sodipodi:role="line"
+         id="tspan3316"
+         x="339.28427"
+         y="496.1459">7999</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="FIX"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <g
        transform="translate(-150,-214)"
        style="display:inline"
@@ -1052,7 +1172,8 @@
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="revs"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#000000;stroke-width:66.66200256;stroke-miterlimit:0.40000001;stroke-opacity:0.37566139;stroke-dasharray:33.331, 33.331;stroke-dashoffset:0;display:inline"
        d="M 330,616.66897 C 171.6771,616.66897 43.331027,488.3229 43.331027,330 43.331026,171.67709 171.67709,43.33103 330,43.331031 488.3229,43.331031 616.66897,171.6771 616.66897,330"
@@ -1072,7 +1193,8 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="unused"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#000000;stroke-width:66.66205597;stroke-miterlimit:0.40000001;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        d="M 490,616.66897 C 331.6771,616.66897 203.33103,488.3229 203.33103,330 203.33103,171.67709 331.67709,43.331027 490,43.331028 648.3229,43.331028 776.66897,171.6771 776.66897,330"
@@ -1084,7 +1206,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="fontpath"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <g
        style="display:inline"
        id="ico_handbrake_12343525ron"
@@ -1163,7 +1286,8 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="new2"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <g
        id="revneedle"
        inkscape:label="#g4147">
@@ -1188,7 +1312,8 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Icons bottom right"
-     style="display:none">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        style="fill:#000000;fill-opacity:0.57142861;stroke:#ffffff;stroke-width:4.75499439;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        d="m 386.4512,577.16251 0.0556,17.08797 15.45962,0.24613 0,10.03868 0,10.03869 -15.45962,0.24608 -0.0556,17.08797 -35.33627,-27.37274 z"
@@ -1493,7 +1618,8 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="icons bottom right activated"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <path
        style="fill:#10ff00;fill-opacity:0.7248677;stroke:#ffffff;stroke-width:4.75499439;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        d="m 386.4512,577.16251 0.0556,17.08797 15.45962,0.24613 0,10.03868 0,10.03869 -15.45962,0.24608 -0.0556,17.08797 -35.33627,-27.37274 z"
@@ -1795,7 +1921,8 @@
      inkscape:groupmode="layer"
      id="layer12"
      inkscape:label="icons bottom right 2"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <g
        style="display:inline"
        id="ico_lights_high"
@@ -1861,7 +1988,8 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="icons"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <path
        sodipodi:type="arc"
        style="fill:#3a3a3a;fill-opacity:1;stroke:#ffffff;stroke-width:12;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
@@ -2044,7 +2172,8 @@
      id="layer5"
      inkscape:label="test 1"
      style="display:none"
-     transform="translate(-150,-214)">
+     transform="translate(-150,-214)"
+     sodipodi:insensitive="true">
     <path
        style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 480,224 c -20.95323,0 -41.43416,2.01857 -61.26367,5.86328 l 12.08008,58.80274 C 446.74495,285.61583 463.18224,284 480,284 c 36.22419,0 70.7135,7.41519 102.04492,20.79883 l 24.1836,-54.92188 C 567.49749,233.23259 524.82925,224 480,224 z m -67.13867,7.07812 c -60.69914,12.96113 -115.01734,43.12659 -157.60938,85.15821 l 42.54297,42.3125 c 34.42536,-33.82645 78.22177,-58.13556 127.14258,-68.68555 l -12.07617,-58.78516 z m 198.86328,21.20508 -24.1875,54.9336 c 45.44422,20.67199 83.88358,54.04459 110.80078,95.58008 l 50.87305,-31.84376 C 715.93577,319.29347 668.20331,277.82636 611.72461,252.2832 z m -360.70117,68.21094 c -42.37565,43.40627 -72.5223,98.80082 -84.8418,160.63281 l 58.99024,11.05664 c 10.0623,-49.7524 34.33605,-94.34359 68.39257,-129.3789 l -42.54101,-42.31055 z m 501.3789,55.54102 -50.86132,31.83398 C 725.92383,447.46544 740,494.08649 740,544 740,687.59403 623.59403,804 480,804 426.30223,804 376.40849,787.71757 334.98047,759.82617 l -34.04102,49.42188 C 352.04051,843.81227 413.66249,864 480,864 656.73112,864 800,720.73112 800,544 800,482.39079 782.57195,424.85952 752.40234,376.03516 z M 165.06055,487.02148 C 161.7373,505.51211 160,524.55271 160,544 c 0,43.47625 8.68492,84.91949 24.39062,122.71094 l 55.21485,-23.5293 C 226.98058,612.61583 220,579.12541 220,544 c 0,-15.6701 1.38639,-31.01528 4.04297,-45.92188 l -58.98242,-11.05664 z m 76.90039,161.67774 -55.20899,23.52734 c 23.61428,53.92719 61.65397,100.09134 109.25586,133.60352 l 34.03516,-49.41406 C 291.73258,729.3212 261.08736,692.12046 241.96094,648.69922 z"
@@ -2073,7 +2202,7 @@
      id="script159">
 
 document.getStreams = function () {
-  return ['electrics', 'engineInfo'];
+  return ['electrics', 'engineInfo', 'stats', 'engineThermalData'];
 };
 
 // var
@@ -2093,19 +2222,20 @@ var oilTempIcoOff = document.getElementById('ico_temp');
 var oilTempIcoOn = document.getElementById('ico_temp_on');
 
 // speed and airspeed
-var speedText = document.getElementById('tacho3speed');
-var airspeedText = document.getElementById('tacho3airspeed');
+var speedText = document.getElementById('wheelspeed');
+var airspeedText = document.getElementById('airspeed');
 
 // gear and maxgear
-var gearText = document.getElementById('tacho3gear');
-var maxgearText = document.getElementById('tacho3maxgear');
+var gearText = document.getElementById('actualgear');
+var maxgearText = document.getElementById('maxgear');
 
-// HorsePower - Kilograme - HP per KG 
-var hpkghppkgText = document.getElementById('hpkghppkg');
-var pstext = 0;
-var hptext = 0;
-var kgtext = 0;
-var hppkgtext = 0;
+// HorsePower - Torque - Weight 
+var powerrtText = document.getElementById('powerrt');
+var torquertText = document.getElementById('torquert');
+var weightText = document.getElementById('weight');
+
+// oiltemp
+var oiltempText = document.getElementById('oiltemp');
 
 // revcurve
 var revCurve = document.getElementById('revcurve');
@@ -2164,13 +2294,25 @@ var testVar = 0; // for the test mode
 var displayMode = 2;
 
 function applyData(data) {
+  // speed and airspeed
   speedText.textContent = data.speedtext;
-  if (speedText.textContent == "-Infinity" || speedText.textContent == "Infinity") { speedText.textContent = "-" };
+  if (speedText.textContent == &quot;-Infinity&quot; || speedText.textContent == &quot;Infinity&quot;) { speedText.textContent = &quot;-&quot; };
   airspeedText.textContent = data.airspeedtext;
+
+  // gear and maxgear
   gearText.textContent = data.geartext;
   maxgearText.textContent = data.maxgeartext;
-  hpkghppkgText.textContent = data.hpkghppkgtext;
 
+  //weight
+  weightText.textContent = Math.floor(parseFloat(data.weighttext));
+
+  //Max Power and Torqe
+  powerrtText.textContent = Math.floor(parseFloat(data.powerrttext) * 0.98632);
+  torquertText.textContent = Math.floor(parseFloat(data.torquerttext));
+
+  //oiltemp
+  oiltempText.textContent = Math.floor(parseFloat(data.oiltemptext));
+  
   // fuel
   fuelBar.style['stroke-dashoffset'] = (1 - data.fuel) * fuelBarLen;
   var fuelLow = data.fuel &lt; 0.1;
@@ -2277,7 +2419,7 @@ document.update = function (streams) {
       redLine.style['stroke-dashoffset'] = -upshiftRPM_perc * redLineLen;
 
       var dashCount = Math.round(rpm_max / 1000) - 1;
-      if(dashCount > maxRpmTexts) { dashCount = maxRpmTexts; }
+      if(dashCount &gt; maxRpmTexts) { dashCount = maxRpmTexts; }
 
       var dashes = (revCurveDashesLen - dashSize * dashCount) / (dashCount + 1);
       revCurveDashes.style['stroke-dasharray'] = dashSize + ' ' + dashes;
@@ -2296,21 +2438,6 @@ document.update = function (streams) {
         document.getElementById('rpmtext' + (k + 1)).textContent = t;
         document.getElementById('rpmtext' + (k + 1)).style['visibility'] = 'visible';
       }
-
-      //MaxGear
-      var maxFGears = streams.engineInfo[6];
-      data.maxgeartext = "/" + maxFGears;
-
-      //MaxHP
-      //for (var key in streams.engineConfig) {
-      //  if (streams.engineConfig[key].isPresent) {
-      //    pstext = Math.max(pstext, streams.engineConfig[key].power.max);
-      //  }
-      //}
-      //pstext = Math.ceil(pstext / 250) * 250;
-      //var hptext = pstext * 0.98632;
-      data.hpkghppkgtext = pstext + '-' + hptext + '-' + kgtext;
-
 
       //console.log(streams);
       initialized = true;
@@ -2334,20 +2461,25 @@ document.update = function (streams) {
       data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
     }
     (function () {
-      if(streams.engineInfo[13] == "manual") {
+      if(streams.engineInfo[13] == &quot;manual&quot;) {
         var gear = streams.engineInfo[5];
         var gearStr = gear.toString();
-
+        var maxFGears = streams.engineInfo[6];
+        data.maxgeartext = &quot;/&quot; + maxFGears;
         if(gear == 0) gearStr = 'N';
         else if(gear == -1) gearStr = 'R';
-        else if(-gear > 1) gearStr = 'R' + (-gear);
+        else if(-gear &gt; 1) gearStr = 'R' + (-gear);
 
         data.geartext = gearStr;
       } else {
-        data.geartext = ["P","R","N","D","2","1"][Math.round(streams.electrics.gear_A*5)];
+        data.geartext = [&quot;P&quot;,&quot;R&quot;,&quot;N&quot;,&quot;D&quot;,&quot;2&quot;,&quot;1&quot;][Math.round(streams.electrics.gear_A*5)];
       }
     })();
 
+    data.powerrttext = streams.engineInfo[21]
+    data.torquerttext = streams.engineInfo[8]
+    data.weighttext = streams.stats.total_weight;
+    data.oiltemptext = streams.engineThermalData.oilTemperature;
     data.fuel = streams.engineInfo[11] / streams.engineInfo[12];
     data.parkingBrake = streams.electrics.parkingbrake;
     data.absWorking = streams.electrics.abs;
@@ -2361,11 +2493,10 @@ document.update = function (streams) {
   } else if (displayMode == 0) {
     // starting animation
     testVar = testVar + 0.04;
-    if(testVar > 1) testVar = 1;
+    if(testVar &gt; 1) testVar = 1;
     data.speedtext = Math.round(testVar * 100) ;
     data.airspeedtext = Math.round(testVar * 100) ;
     data.geartext = Math.round(testVar * 5);
-    data.maxgeartext = Math.round(testVar * 5);
     data.fuel = testVar;
     var boolTest = true;  //Math.round(testVar * 10) % 10;
     data.parkingBrake = boolTest;
@@ -2376,13 +2507,13 @@ document.update = function (streams) {
     data.lowBeam = boolTest;
     data.highBeam = !boolTest;
     data.rpm = testVar;
-    if(testVar >= 1) {
+    if(testVar &gt;= 1) {
       testVar = 0;
       displayMode = 1;
     }
 
   } else if (displayMode == 1) {
-    // starting animation -> real data transition
+    // starting animation -&gt; real data transition
 
     if(streams.electrics.wheelspeed) {
       data.speedtext = UnitSpeed(streams.electrics.wheelspeed);
@@ -2396,7 +2527,7 @@ document.update = function (streams) {
       var gear = streams.engineInfo[5];
       var gearStr = gear.toString();
       var maxFGears = streams.engineInfo[6];
-      data.maxgeartext = "/" + maxFGears;
+      data.maxgeartext = &quot;/&quot; + maxFGears;
       if(gear == 0) {
         gearStr = 'N';
       }

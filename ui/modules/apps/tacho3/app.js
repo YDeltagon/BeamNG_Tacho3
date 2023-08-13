@@ -28,9 +28,11 @@ angular.module('beamng.apps')
         var svg = element[0].contentDocument;  // Get a reference to the SVG
         StreamsManager.add(svg.getStreams());  // Add the SVG streams to the StreamsManager
       });
-
+    
       // Event listener for when streams are updated
       scope.$on('streamsUpdate', function (event, streams) {
+        //debug new data
+        //console.log(streams.stats.total_weight);
         if(svg) {
           if (svg.update(streams)) {  // Update the SVG with the new streams
             if(!visible) {
