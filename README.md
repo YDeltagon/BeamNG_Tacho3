@@ -1,5 +1,7 @@
 # Tacho 3 for BeamNG 🚗
 
+![Tacho3 Screen](https://github.com/YDeltagon/BeamNG_Tacho3/blob/Master/Tacho3BIG.png)
+
 ## EN (FR plus bas)
 
 **Tacho 3** is an advanced version of the base game's Tacho2 app for BeamNG
@@ -60,6 +62,3 @@ L'application est directement disponible sur le dépôt BeamNG en jeu
 C'est mon premier mod, je suis donc actuellement en phase de test
 
 **Votre patience et vos retours sont grandement appréciés**
-
-
-![Tacho3 Screen](https://github.com/YDeltagon/BeamNG_Tacho3/blob/Master/Tacho3BIG.png)
