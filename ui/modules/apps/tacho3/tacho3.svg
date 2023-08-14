@@ -22,6 +22,13 @@
    inkscape:export-ydpi="181.33821">
   <defs
      id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 330 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="660 : 330 : 1"
+       inkscape:persp3d-origin="330 : 220 : 1"
+       id="perspective5100" />
     <inkscape:path-effect
        effect="skeletal"
        id="path-effect5377"
@@ -703,9 +710,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="478.65792"
-     inkscape:cy="229.76932"
+     inkscape:zoom="1"
+     inkscape:cx="-21.1564"
+     inkscape:cy="192.76059"
      inkscape:document-units="px"
      inkscape:current-layer="layer6"
      showgrid="true"
@@ -810,17 +817,26 @@
        clip-path="url(#clipPath4407-8)" />
     <text
        xml:space="preserve"
-       style="font-size:60px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.80000001;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       style="font-size:60px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#ffffff;fill-opacity:0.80000000999999998;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
        x="329.88641"
        y="188.81081"
-       id="tspan4449-43"
+       id="wheelspeed"
        sodipodi:linespacing="125%"
        inkscape:label="#wheelspeed"><tspan
          sodipodi:role="line"
-         id="wheelspeed"
-         x="329.88641"
-         y="188.81081"
-         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.80000001;font-family:Squada One;-inkscape-font-specification:Squada One">0</tspan></text>
+         id="tspan5074">799</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.80000001;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       x="390"
+       y="177.23685"
+       id="speed_units"
+       sodipodi:linespacing="125%"
+       inkscape:label="#speed_units"><tspan
+         sodipodi:role="line"
+         id="speedunit"
+         x="390"
+         y="177.23685">kmh</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:44.18135452px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.8;stroke:none;display:inline;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue"
@@ -1021,16 +1037,13 @@
     <text
        inkscape:label="#airspeed"
        sodipodi:linespacing="125%"
-       id="text3900"
+       id="airspeed"
        y="291.21329"
        x="329.88641"
-       style="font-size:130px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       style="font-size:130px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
        xml:space="preserve"><tspan
-         style="font-size:130px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Squada One;-inkscape-font-specification:Squada One"
-         y="291.21329"
-         x="329.88641"
-         id="airspeed"
-         sodipodi:role="line">0</tspan></text>
+         sodipodi:role="line"
+         id="tspan5072">799</tspan></text>
     <text
        transform="matrix(1,0,-0.13142611,1,0,0)"
        inkscape:label="#maxgear"
@@ -1070,15 +1083,16 @@
          y="344.41089">99</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.60000002;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
        id="x1000"
        sodipodi:linespacing="125%"
        inkscape:label="#x1000"
-       transform="translate(-1.2922171,-83.348018)"><textPath
+       transform="translate(0.39842371,-83.348018)"><textPath
          xlink:href="#path4281"
          startOffset="50%"
          id="textPath3305"><tspan
-   id="tspan3304">x1000</tspan></textPath></text>
+   id="tspan3304"
+   style="fill:#ffffff;fill-opacity:0.60000002">x1000</tspan></textPath></text>
     <text
        inkscape:label="#powerrt"
        sodipodi:linespacing="125%"
@@ -1131,6 +1145,86 @@
          id="tspan3316"
          x="339.28427"
          y="496.1459">7999</tspan></text>
+    <text
+       inkscape:label="#speed_wheel"
+       sodipodi:linespacing="125%"
+       id="speed_wheel"
+       y="147.16824"
+       x="330.3396"
+       style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.60000002;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan5124"
+         x="330.3396"
+         y="147.16824">Wheel</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.60000002;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       x="329.74304"
+       y="203.69852"
+       id="speed_air"
+       sodipodi:linespacing="125%"
+       inkscape:label="#speed_air"><tspan
+         sodipodi:role="line"
+         id="tspan5122"
+         x="329.74304"
+         y="203.69852">Air</tspan></text>
+    <text
+       inkscape:label="#weight_units"
+       sodipodi:linespacing="125%"
+       id="weight_units"
+       y="500.04935"
+       x="384.13257"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.80000001;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan5092"
+         x="384.13257"
+         y="500.04935">kg</tspan></text>
+    <text
+       inkscape:label="#power_txt"
+       sodipodi:linespacing="125%"
+       id="power_txt"
+       y="312.50687"
+       x="323.22717"
+       style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:end;fill:#ffffff;fill-opacity:0.60000002;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan5114">Power</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:0.60000002;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       x="373.38184"
+       y="312.50687"
+       id="torque_txt"
+       sodipodi:linespacing="125%"
+       inkscape:label="#torque_txt"><tspan
+         sodipodi:role="line"
+         id="tspan5120"
+         x="373.38184"
+         y="312.50687">Torque</tspan></text>
+    <text
+       inkscape:label="#actualgear_txt"
+       sodipodi:linespacing="125%"
+       id="actualgear_txt"
+       y="364.93582"
+       x="329.74304"
+       style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#ffffff;fill-opacity:0.60000001999999997;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan5140">Gear</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.60000002;stroke:none;display:inline;font-family:Squada One;-inkscape-font-specification:Squada One"
+       x="423.74304"
+       y="410.12332"
+       id="maxgear_txt"
+       sodipodi:linespacing="125%"
+       inkscape:label="#maxgear_txt"><tspan
+         sodipodi:role="line"
+         id="tspan5138"
+         x="423.74304"
+         y="410.12332">Max</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2289,6 +2383,7 @@ var icoIndicatorRightOn = document.getElementById('ico_indicatorr_on');
 var icoLightsOff = document.getElementById('ico_lights');
 var icoLightsOn = document.getElementById('ico_lights_on');
 var icoLightsHigh = document.getElementById('ico_lights_high');
+var speedUnitText = document.getElementById('speedunit');
 
 var testVar = 0; // for the test mode
 var displayMode = 2;
@@ -2454,11 +2549,13 @@ document.update = function (streams) {
     // real data mode, no animation
     if(streams.electrics.wheelspeed) {
       data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
-      data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
       data.speedtext = UnitSpeed(streams.electrics.wheelspeed);
+      if (streams.electrics.wheelspeed &gt; 9000) {
+        speedUnitText.textContent = 'brrrr';
+      }
     } else if (streams.electrics.airspeed) {
       data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
-      data.airspeedtext = UnitSpeed(streams.electrics.airspeed);
+      data.speedtext = UnitSpeed(streams.electrics.airspeed);
     }
     (function () {
       if(streams.engineInfo[13] == &quot;manual&quot;) {
@@ -2521,6 +2618,7 @@ document.update = function (streams) {
     } else {
       data.speedtext = '';
       data.airspeedtext = '';
+      speedUnitText.textContent = '';
     }
 
     (function () {
@@ -2573,6 +2671,7 @@ var UiUnitscallback;
 
 function UnitSpeed (val) {
   var convertedVal = UiUnitscallback(val, 'speed');
+  speedUnitText.textContent = convertedVal.unit;
   return Math.round(convertedVal.val);
 }
 
