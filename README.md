@@ -26,6 +26,7 @@ If you have any ideas, suggestions, code contributions, or if you encounter any 
 
 ### Download ✅
 The app is directly available on the BeamNG repo in-game
+- **https://www.beamng.com/resources/tacho-3.27982**
 
 ### Note 📌
 This is my first mod, so I'm currently in the testing phase
@@ -57,6 +58,7 @@ Si vous avez des idées, des suggestions, des contributions de code ou si vous r
 
 ### Téléchargement ✅
 L'application est directement disponible sur le dépôt BeamNG en jeu
+- **https://www.beamng.com/resources/tacho-3.27982**
 
 ### Note 📌
 C'est mon premier mod, je suis donc actuellement en phase de test
