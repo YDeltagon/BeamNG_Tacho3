@@ -8,7 +8,8 @@
 This application aims to provide users with a more comprehensive understanding of their vehicle's performance ️
 
 ### 🔧 Features
-- **Wheel Speed (WheelSpeed)**: Speed calculated at the wheel level (like the basic Tacho2 app)
+- **Wheel Speed (WheelSpeed)**
+ - Speed calculated at the wheel level (like the basic Tacho2 app)
 - **Air Speed (AirSpeed)**: The speed at which your vehicle moves through the air (like an ultra-precise GPS speed)
 - **Real-time Power (Power)**: Measured in horsepower, get instant feedback on your vehicle's power
 - **Real-time Torque (Torque)**: Measured in NM, get instant feedback on your vehicle's torque
