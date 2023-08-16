@@ -1,4 +1,4 @@
-# 🚗 Tacho 3 for BeamNG 🚗
+# 🚗 Tacho 3 for BeamNG
 
 ## EN
 
@@ -63,7 +63,5 @@ C'est mon premier mod, soyez indulgent. Votre patience et vos retours sont grand
 ## 📊 GitHub Insights
 
 - **Stars**: ![Stars](https://img.shields.io/github/stars/YDeltagon/BeamNG_Tacho3?style=flat-square&logo=github)
-- **Forks**: ![Forks](https://img.shields.io/github/forks/YDeltagon/BeamNG_Tacho3?style=flat-square&logo=github)
 - **Issues**: ![Issues](https://img.shields.io/github/issues/YDeltagon/BeamNG_Tacho3?style=flat-square&logo=github)
 - **Pull Requests**: ![Pull Requests](https://img.shields.io/github/issues-pr/YDeltagon/BeamNG_Tacho3?style=flat-square&logo=github)
-- **License**: ![License](https://img.shields.io/github/license/YDeltagon/BeamNG_Tacho3?style=flat-square&logo=github)
