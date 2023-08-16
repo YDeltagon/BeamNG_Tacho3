@@ -1,4 +1,5 @@
-# ![Tacho 3 Icon](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/ico.png) Tacho 3 for BeamNG
+# ![Tacho 3 Icon](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/ico.png) 
+# Tacho 3 for BeamNG
 
 
 ## EN
