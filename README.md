@@ -1,4 +1,5 @@
 # 🚗 Tacho 3 for BeamNG
+![Tacho 3 Icon](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/ico.png)
 
 ## EN
 
@@ -65,3 +66,7 @@ C'est mon premier mod, soyez indulgent. Votre patience et vos retours sont grand
 - **Stars**: ![Stars](https://img.shields.io/github/stars/YDeltagon/BeamNG_Tacho3?style=flat-square&logo=github)
 - **Issues**: ![Issues](https://img.shields.io/github/issues/YDeltagon/BeamNG_Tacho3?style=flat-square&logo=github)
 - **Pull Requests**: ![Pull Requests](https://img.shields.io/github/issues-pr/YDeltagon/BeamNG_Tacho3?style=flat-square&logo=github)
+
+---
+
+![Tacho 3 Big Image](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/Tacho3BIG.png)
