@@ -2296,7 +2296,7 @@
      id="script159">
 
 document.getStreams = function () {
-  return ['electrics', 'engineInfo', 'stats', 'engineThermalData'];
+  return ['electrics', 'engineInfo', 'stats'];
 };
 
 // var
@@ -2576,7 +2576,7 @@ document.update = function (streams) {
     data.powerrttext = streams.engineInfo[21]
     data.torquerttext = streams.engineInfo[8]
     data.weighttext = streams.stats.total_weight;
-    data.oiltemptext = streams.engineThermalData.oilTemperature;
+    data.oiltemptext = streams.electrics.oiltemp;
     data.fuel = streams.engineInfo[11] / streams.engineInfo[12];
     data.parkingBrake = streams.electrics.parkingbrake;
     data.absWorking = streams.electrics.abs;
