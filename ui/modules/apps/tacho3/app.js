@@ -1,5 +1,3 @@
-'use strict';  // Enforces strict mode in JavaScript
-
 // Define a new AngularJS module for the BeamNG app
 angular.module('beamng.apps')
 .directive('tacho3', [function () {
