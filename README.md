@@ -1,11 +1,8 @@
 # ![Tacho 3 Icon](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/ico.png) Tacho 3 for BeamNG
 
-
 ## EN
 
-**Tacho 3** is an advanced version of the Tacho2 application from the base game for BeamNG.
-
-This application aims to provide users with a more comprehensive understanding of their vehicle's performance ️
+**Tacho 3** is an advanced version of the Tacho2 application from the base game
 
 ### 🔧 Features
 - **Wheel Speed (WheelSpeed)**: Speed calculated at the wheel level (like the basic Tacho2 app)
@@ -18,24 +15,22 @@ This application aims to provide users with a more comprehensive understanding o
 
 ### 🔜 Upcoming Features
 - **Real-time Fuel Consumption**: I'm currently working on it, but I'm facing some challenges
-**Stay tuned for updates**
 
 ### 📝 Feedback and Contributions
-If you have ideas, suggestions, code contributions, or if you encounter any errors, please open an [Issue](https://github.com/YDeltagon/BeamNG_Tacho3/issues) or [Pulls](https://github.com/YDeltagon/BeamNG_Tacho3/pulls) on my GitHub.
+If you have ideas, suggestions, contributions, or if you encounter any errors, please open an [Issue](https://github.com/YDeltagon/BeamNG_Tacho3/issues) or [Pulls](https://github.com/YDeltagon/BeamNG_Tacho3/pulls) on my GitHub
 
 ### 📥 Download
-The application is directly available on the [BeamNG repository](https://www.beamng.com/resources/tacho-3.27982/).
+The application is directly available on the [BeamNG repository](https://www.beamng.com/resources/tacho-3.27982/)
 
 ### 📌 Note
-This is my first mod, please be kind. Your patience and feedback are greatly appreciated.
+This is my first mod, please be kind
+Your feedback are greatly appreciated
 
 ---
 
 ## FR
 
-**Tacho 3** est une version avancée de l'application Tacho2 du jeu de base pour BeamNG.
-
-Cette application vise à offrir aux utilisateurs une compréhension plus complète des performances de leur véhicule ️
+**Tacho 3** est une version avancée de l'application Tacho2 du jeu de base
 
 ### 🔧 Fonctionnalités
 - **Vitesse des roues (WheelSpeed)**: Vitesse calculée au niveau des roues (comme l'app Tacho2 de base)
@@ -48,16 +43,16 @@ Cette application vise à offrir aux utilisateurs une compréhension plus compl�
 
 ### 🔜 Fonctionnalités à venir
 - **Consommation de carburant en temps réel**: Je travaille actuellement dessus, mais j'ai quelques difficultés
-**Restez à l'écoute pour les mises à jour**
 
 ### 📝 Retours et contributions
-Si vous avez des idées, des suggestions, des contributions de code ou si vous rencontrez des erreurs, veuillez ouvrir une [Issue](https://github.com/YDeltagon/BeamNG_Tacho3/issues) ou [Pulls](https://github.com/YDeltagon/BeamNG_Tacho3/pulls) sur mon GitHub.
+Si vous avez des idées, des suggestions, des contributions ou si vous rencontrez des erreurs, veuillez ouvrir une [Issue](https://github.com/YDeltagon/BeamNG_Tacho3/issues) ou [Pulls](https://github.com/YDeltagon/BeamNG_Tacho3/pulls) sur mon GitHub
 
 ### 📥 Téléchargement
 L'application est directement disponible sur le [dépôt BeamNG](https://www.beamng.com/resources/tacho-3.27982/).
 
 ### 📌 Note
-C'est mon premier mod, soyez indulgent. Votre patience et vos retours sont grandement appréciés.
+C'est mon premier mod, soyez indulgent
+Vos retours sont grandement appréciés
 
 ---
 
