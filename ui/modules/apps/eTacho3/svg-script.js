@@ -1,3 +1,5 @@
+'use strict';
+
 document.getStreams = function () {
     return ['electrics', 'engineInfo', 'stats'];
   };
@@ -19,20 +21,20 @@ document.getStreams = function () {
   var oilTempIcoOn = document.getElementById('ico_temp_on');
   
   // speed and airspeed
-  var speedText = document.getElementById('wheelspeed');
-  var airspeedText = document.getElementById('airspeed');
+  var speedText = document.getElementById('tacho2speed');
+  var airspeedText = document.getElementById('tacho2airspeed');
   
   // gear and maxgear
-  var gearText = document.getElementById('actualgear');
-  var maxgearText = document.getElementById('maxgear');
+  var gearText = document.getElementById('tacho2gear');
+  var maxgearText = document.getElementById('tacho2maxgear');
   
   // HorsePower - Torque - Weight 
-  var powerrtText = document.getElementById('powerrt');
-  var torquertText = document.getElementById('torquert');
-  var weightText = document.getElementById('weight');
+  var powerrtText = document.getElementById('tacho2power');
+  var torquertText = document.getElementById('tacho2torque');
+  var weightText = document.getElementById('tacho2weight');
   
   // oiltemp
-  var oiltempText = document.getElementById('oiltemp');
+  var oiltempText = document.getElementById('tacho2oiltemp');
   
   // revcurve
   var revCurve = document.getElementById('revcurve');
@@ -381,3 +383,12 @@ document.getStreams = function () {
   document.wireThroughUnitSystem = function (callback) {
     UiUnitscallback = callback;
   };
+
+  document.getElementById('wheelspeed').addEventListener('click', function() {
+    var opacite = this.getAttribute('opacity');
+    if (opacite == "1") {
+        this.setAttribute('opacity', '0');
+    } else {
+        this.setAttribute('opacity', '1');
+    }
+});

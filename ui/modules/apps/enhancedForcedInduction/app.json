@@ -1,0 +1,16 @@
+{
+  "domElement": "<enhanced-forced-induction></enhanced-forced-induction>",
+  "name": "Enhanced Forced Induction",
+  "types": [
+    "ui.apps.categories.vehicle_info"
+  ],
+  "css": {
+    "bottom": "300px",
+    "height": "150px",
+    "width": "150px",
+    "right": "30px"
+  },
+  "author": "nutunabe & YDeltagon",
+  "version": "2.0.0",
+  "directive": "enhancedForcedInduction"
+}
