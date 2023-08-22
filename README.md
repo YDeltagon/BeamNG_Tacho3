@@ -25,6 +25,10 @@
   - **Weight in real-time**
 
 
+## ➕ Full Explain
+![Tacho 3 Big Image](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/screenshots/enhancedTacho3V2-BIG.png)
+
+
 ## 🔜 Upcoming Features
 - No news (for the moment)
 
@@ -83,7 +87,3 @@ It's completely open-source, and contributions are welcome !
 - **Stars**: ![Stars](https://img.shields.io/github/stars/YDeltagon/BeamNG_Tacho3?style=flat-square&logo=github)
 - **Issues**: ![Issues](https://img.shields.io/github/issues/YDeltagon/BeamNG_Tacho3?style=flat-square&logo=github)
 - **Pull Requests**: ![Pull Requests](https://img.shields.io/github/issues-pr/YDeltagon/BeamNG_Tacho3?style=flat-square&logo=github)
-
----
-
-![Tacho 3 Big Image](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/screenshots/enhancedTacho3V2-BIG.png)
