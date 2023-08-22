@@ -42,7 +42,7 @@
 
 
 ## 📥 Download
-The application is directly available on the [BeamNG repository](https://www.beamng.com/resources/enhanced-tacho-3.27982)
+The application is directly available on the [BeamNG repository](https://www.beamng.com/resources/enhancedtacho3.27982)
 
 
 ## 📌 Note
