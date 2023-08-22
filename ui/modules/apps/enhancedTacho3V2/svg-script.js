@@ -38,7 +38,9 @@ let tachometer = new TachometerV2(
   document.getElementById('tacho2torque'),
   document.getElementById('tacho2weight'),
   document.getElementById('tacho2oiltemp'),
-  document.getElementById('tacho2l100km'),
+  // document.getElementById('tacho2l100km'),
+  // document.getElementById('tacho2maxpower'),
+  // document.getElementById('tacho2maxtorque'),
 
   document.getElementById('tacho2speed'),
   document.getElementById('revcurve_dashes'),

@@ -22,8 +22,10 @@ class BaseTachometer {
     torqueTextElement,
     weightTextElement,
     oiltempTextElement,
-    l100kmTextElement,
-    //
+    // l100kmTextElement,
+    // maxpowerTextElement,
+    // maxtorqueTextElement,
+    ////
 
     speedTextElement,
     revCurveDashesElement,
@@ -75,8 +77,10 @@ class BaseTachometer {
     this.torqueTextElement = torqueTextElement;
     this.weightTextElement = weightTextElement;
     this.oiltempTextElement = oiltempTextElement;
-    this.l100kmTextElement = l100kmTextElement;
-    //
+    // this.l100kmTextElement = l100kmTextElement;
+    // this.maxpowerTextElement = maxpowerTextElement;
+    // this.maxtorqueTextElement = maxtorqueTextElement;
+    ////
 
     this.speedTextElement = speedTextElement;
 
@@ -141,8 +145,10 @@ class Tachometer extends BaseTachometer {
     torqueTextElement,
     weightTextElement,
     oiltempTextElement,
-    l100kmTextElement,
-    //
+    // l100kmTextElement,
+    // maxpowerTextElement,
+    // maxtorqueTextElement,
+    ////
 
     speedTextElement,
     revCurveDashesElement,
@@ -188,8 +194,10 @@ class Tachometer extends BaseTachometer {
       torqueTextElement,
       weightTextElement,
       oiltempTextElement,
-      l100kmTextElement,
-      //
+      // l100kmTextElement,
+      // maxpowerTextElement,
+      // maxtorqueTextElement,
+      ////
 
       speedTextElement,
       revCurveDashesElement,
@@ -240,8 +248,10 @@ class TachometerV2 extends BaseTachometer {
       torqueTextElement,
       weightTextElement,
       oiltempTextElement,
-      l100kmTextElement,
-      //
+      // l100kmTextElement,
+      // maxpowerTextElement,
+      // maxtorqueTextElement,
+      ////
 
     speedTextElement,
     revCurveDashesElement,
@@ -287,8 +297,10 @@ class TachometerV2 extends BaseTachometer {
       torqueTextElement,
       weightTextElement,
       oiltempTextElement,
-      l100kmTextElement,
-      //
+      // l100kmTextElement,
+      // maxpowerTextElement,
+      // maxtorqueTextElement,
+      ////
 
       speedTextElement,
       revCurveDashesElement,

@@ -74,8 +74,10 @@ class BaseTachometerController {
     tacho.torqueTextElement.textContent = Math.floor(parseFloat(this.data.torquetext));
     tacho.weightTextElement.textContent = Math.floor(parseFloat(this.data.weighttext));
     tacho.oiltempTextElement.textContent = Math.floor(parseFloat(this.data.oiltemptext));
-    tacho.l100kmTextElement.textContent = this.data.l100kmtext;
-    //
+    // tacho.l100kmTextElement.textContent = this.data.l100kmtext;
+    // tacho.maxpowerTextElement.textContent = this.data.maxpowertext;
+    // tacho.maxtorqueTextElement.textContent = this.data.maxtorquetext;
+    ////
 
     tacho.speedTextElement.textContent = this.data.speedtext;
     if (tacho.speedTextElement.textContent == "-Infinity" || tacho.speedTextElement.textContent == "Infinity") {
@@ -224,25 +226,27 @@ class BaseTachometerController {
   update(tacho, streams) {
 
     // YDeltagon add
-    this.data.powertext = streams.engineInfo[21];
+    this.data.powertext = (streams.engineInfo[21]* 0.986);
     this.data.torquetext = streams.engineInfo[8];
     this.data.weighttext = streams.stats.total_weight;
     this.data.oiltemptext = streams.electrics.oiltemp;
-    this.data.l100kmtext = "0";
-    //
+    // this.data.l100kmtext = "3";
+    // this.data.maxpowertext = "10";
+    // this.data.maxtorquetext = "10";
+    ////
 
     if (streams.electrics.wheelspeed) {
 
       // YDeltagon add
       this.data.airspeedtext = unitSpeed(streams.electrics.airspeed);
-      //
+      ////
 
       this.data.speedtext = unitSpeed(streams.electrics.wheelspeed);
     } else if (streams.electrics.airspeed) {
 
       // YDeltagon add
       this.data.airspeedtext = unitSpeed(streams.electrics.airspeed);
-      //
+      ////
 
       this.data.speedtext = unitSpeed(streams.electrics.airspeed);
     }
@@ -251,7 +255,7 @@ class BaseTachometerController {
 
       // YDeltagon add
       this.data.maxgeartext = streams.engineInfo[6];
-      //
+      ////
 
       this.data.geartext = streams.engineInfo[5].toString();
       if (streams.engineInfo[5] == 0) this.data.geartext = 'N';
