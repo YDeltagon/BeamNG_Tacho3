@@ -1,4 +1,4 @@
-# ![enhancedTacho3Header](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/Header.png)
+# ![enhancedTacho3Header](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/screenshots/Header.png)
 
 
 **enhancedTacho3** is an advanced version of the Tacho2 application from the base game (BeamNG)
@@ -30,11 +30,11 @@
 
 
 ## 📺 Design
-![enhancedTacho3Needle](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/NeedleOnly.png)
+![enhancedTacho3Needle](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/screenshots/NeedleOnly.png)
 
-![enhancedTacho3Trail](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/TrailOnly.png)
+![enhancedTacho3Trail](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/screenshots/TrailOnly.png)
 
-![enhancedTacho3 Light on W/ needle and trail](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/WithLights-Needle&Trail.png)
+![enhancedTacho3 Light on W/ needle and trail](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/screenshots/WithLights-Needle&Trail.png)
 
 
 ## 📥 Download
@@ -86,4 +86,4 @@ It's completely open-source, and contributions are welcome !
 
 ---
 
-![Tacho 3 Big Image](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/enhancedTacho3V2-BIG.png)
+![Tacho 3 Big Image](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/screenshots/enhancedTacho3V2-BIG.png)
