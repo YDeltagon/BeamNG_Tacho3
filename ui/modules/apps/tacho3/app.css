@@ -1,5 +1,0 @@
-/* Prevents the SVG from being selected by the user */
-svg {
-  -webkit-user-select: none;
-  cursor: default; /* Sets the default cursor when hovering over the SVG */
-}
