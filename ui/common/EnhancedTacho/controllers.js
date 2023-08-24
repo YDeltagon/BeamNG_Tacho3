@@ -68,22 +68,22 @@ class BaseTachometerController {
   applyData(tacho) {
 
     // YDeltagon add
-    tacho.airspeedTextElement.textContent = this.data.airspeedtext;
-    tacho.maxgearTextElement.textContent = this.data.maxgeartext;
-    tacho.powerTextElement.textContent = Math.floor(parseFloat(this.data.powertext));
-    tacho.torqueTextElement.textContent = Math.floor(parseFloat(this.data.torquetext));
-    tacho.weightTextElement.textContent = Math.floor(parseFloat(this.data.weighttext));
-    tacho.oiltempTextElement.textContent = Math.floor(parseFloat(this.data.oiltemptext));
+    tacho.airspeedTextElement.textContent = this.data.airspeedtext || '0';
+    tacho.maxgearTextElement.textContent = this.data.maxgeartext || '0';
+    tacho.powerTextElement.textContent = this.data.powertext && !isNaN(parseFloat(this.data.powertext)) ? Math.floor(parseFloat(this.data.powertext)) : '0';
+    tacho.torqueTextElement.textContent = this.data.torquetext && !isNaN(parseFloat(this.data.torquetext)) ? Math.floor(parseFloat(this.data.torquetext)) : '0';
+    tacho.weightTextElement.textContent = this.data.weighttext && !isNaN(parseFloat(this.data.weighttext)) ? Math.floor(parseFloat(this.data.weighttext)) : '0';
+    tacho.oiltempTextElement.textContent = this.data.oiltemptext && !isNaN(parseFloat(this.data.oiltemptext)) ? Math.floor(parseFloat(this.data.oiltemptext)) : '0';    
     // tacho.l100kmTextElement.textContent = this.data.l100kmtext;
     // tacho.maxpowerTextElement.textContent = this.data.maxpowertext;
     // tacho.maxtorqueTextElement.textContent = this.data.maxtorquetext;
     ////
 
-    tacho.speedTextElement.textContent = this.data.speedtext;
+    tacho.speedTextElement.textContent = this.data.speedtext || '0';;
     if (tacho.speedTextElement.textContent == "-Infinity" || tacho.speedTextElement.textContent == "Infinity") {
       tacho.speedTextElement.textContent = "-";
     };
-    tacho.gearTextElement.textContent = this.data.geartext;
+    tacho.gearTextElement.textContent = this.data.geartext || '0';
 
     tacho.fuelLevelBarElement.style['stroke-dashoffset'] = (1 - this.data.fuel) * tacho.fuelLevelBarLength;
     tacho.fuelLevelBarDashesElement.style['stroke'] = this.data.fuel < 0.1 ? '#ff8b19' : '#fff';

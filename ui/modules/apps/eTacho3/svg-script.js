@@ -95,23 +95,23 @@ document.getStreams = function () {
   
   function applyData(data) {
     // speed and airspeed
-    speedText.textContent = data.speedtext;
+    speedText.textContent = data.speedtext || '0';
     if (speedText.textContent == "-Infinity" || speedText.textContent == "Infinity") { speedText.textContent = "-" };
-    airspeedText.textContent = data.airspeedtext;
-  
+    airspeedText.textContent = data.airspeedtext || '0';
+    
     // gear and maxgear
-    gearText.textContent = data.geartext;
-    maxgearText.textContent = data.maxgeartext;
-  
-    //weight
-    weightText.textContent = Math.floor(parseFloat(data.weighttext));
-  
-    //Max Power and Torqe
-    powerrtText.textContent = Math.floor(parseFloat(data.powerrttext) * 0.98632);
-    torquertText.textContent = Math.floor(parseFloat(data.torquerttext));
-  
-    //oiltemp
-    oiltempText.textContent = Math.floor(parseFloat(data.oiltemptext));
+    gearText.textContent = data.geartext || '0';
+    maxgearText.textContent = data.maxgeartext || '0';
+    
+    // weight
+    weightText.textContent = data.weighttext && !isNaN(parseFloat(data.weighttext)) ? Math.floor(parseFloat(data.weighttext)) : '0';
+    
+    // Power and Torque RealTime
+    powerrtText.textContent = data.powerrttext && !isNaN(parseFloat(data.powerrttext)) ? Math.floor(parseFloat(data.powerrttext) * 0.98632) : '0';
+    torquertText.textContent = data.torquerttext && !isNaN(parseFloat(data.torquerttext)) ? Math.floor(parseFloat(data.torquerttext)) : '0';
+    
+    // oiltemp
+    oiltempText.textContent = data.oiltemptext && !isNaN(parseFloat(data.oiltemptext)) ? Math.floor(parseFloat(data.oiltemptext)) : '0';    
     
     // fuel
     fuelBar.style['stroke-dashoffset'] = (1 - data.fuel) * fuelBarLen;
