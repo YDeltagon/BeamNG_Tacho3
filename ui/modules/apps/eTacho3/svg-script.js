@@ -278,10 +278,10 @@ document.getStreams = function () {
         }
       })();
   
-      data.powerrttext = streams.engineInfo[21]
-      data.torquerttext = streams.engineInfo[8]
-      data.weighttext = streams.stats.total_weight;
-      data.oiltemptext = streams.electrics.oiltemp;
+      data.powerrttext = streams?.engineInfo?.[21] ?? 0;
+      data.torquerttext = streams?.engineInfo?.[8] ?? 0;
+      data.weighttext = streams?.stats?.total_weight ?? 0;
+      data.oiltemptext = streams?.electrics?.oiltemp ?? 0;
       data.fuel = streams.engineInfo[11] / streams.engineInfo[12];
       data.parkingBrake = streams.electrics.parkingbrake;
       data.absWorking = streams.electrics.abs;

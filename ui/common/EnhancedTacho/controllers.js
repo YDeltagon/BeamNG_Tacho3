@@ -226,10 +226,11 @@ class BaseTachometerController {
   update(tacho, streams) {
 
     // YDeltagon add
-    this.data.powertext = (streams.engineInfo[21]* 0.986);
-    this.data.torquetext = streams.engineInfo[8];
-    this.data.weighttext = streams.stats.total_weight;
-    this.data.oiltemptext = streams.electrics.oiltemp;
+    // Check if the streams object and its properties exist before trying to set the data
+    this.data.powertext = (streams?.engineInfo?.[21] ?? 0) * 0.986;
+    this.data.torquetext = streams?.engineInfo?.[8] ?? 0;
+    this.data.weighttext = streams?.stats?.total_weight ?? 0;
+    this.data.oiltemptext = streams?.electrics?.oiltemp ?? 0;
     // this.data.l100kmtext = "3";
     // this.data.maxpowertext = "10";
     // this.data.maxtorquetext = "10";
