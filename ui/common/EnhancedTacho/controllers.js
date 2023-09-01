@@ -66,24 +66,11 @@ class BaseTachometerController {
   }
 
   applyData(tacho) {
-
-    // YDeltagon add
-    tacho.airspeedTextElement.textContent = this.data.airspeedtext || '0';
-    tacho.maxgearTextElement.textContent = this.data.maxgeartext || '0';
-    tacho.powerTextElement.textContent = this.data.powertext && !isNaN(parseFloat(this.data.powertext)) ? Math.floor(parseFloat(this.data.powertext)) : '0';
-    tacho.torqueTextElement.textContent = this.data.torquetext && !isNaN(parseFloat(this.data.torquetext)) ? Math.floor(parseFloat(this.data.torquetext)) : '0';
-    tacho.weightTextElement.textContent = this.data.weighttext && !isNaN(parseFloat(this.data.weighttext)) ? Math.floor(parseFloat(this.data.weighttext)) : '0';
-    tacho.oiltempTextElement.textContent = this.data.oiltemptext && !isNaN(parseFloat(this.data.oiltemptext)) ? Math.floor(parseFloat(this.data.oiltemptext)) : '0';    
-    // tacho.l100kmTextElement.textContent = this.data.l100kmtext;
-    // tacho.maxpowerTextElement.textContent = this.data.maxpowertext;
-    // tacho.maxtorqueTextElement.textContent = this.data.maxtorquetext;
-    ////
-
-    tacho.speedTextElement.textContent = this.data.speedtext || '0';;
+    tacho.speedTextElement.textContent = this.data.speedtext;
     if (tacho.speedTextElement.textContent == "-Infinity" || tacho.speedTextElement.textContent == "Infinity") {
       tacho.speedTextElement.textContent = "-";
     };
-    tacho.gearTextElement.textContent = this.data.geartext || '0';
+    tacho.gearTextElement.textContent = this.data.geartext;
 
     tacho.fuelLevelBarElement.style['stroke-dashoffset'] = (1 - this.data.fuel) * tacho.fuelLevelBarLength;
     tacho.fuelLevelBarDashesElement.style['stroke'] = this.data.fuel < 0.1 ? '#ff8b19' : '#fff';
@@ -139,6 +126,19 @@ class BaseTachometerController {
       tacho.gearTextElement.style['fill'] = '#ffffff';
       tacho.gearTextBackgroundElement.style['stroke'] = 'none';
     }
+
+      // YDeltagon add
+      tacho.airspeedTextElement.textContent = this.data.airspeedtext;
+      tacho.maxgearTextElement.textContent = this.data.maxgeartext;
+      tacho.powerTextElement.textContent = Math.floor(parseFloat(this.data.powertext));
+      tacho.torqueTextElement.textContent = Math.floor(parseFloat(this.data.torquetext));
+      tacho.weightTextElement.textContent = Math.floor(parseFloat(this.data.weighttext));
+      tacho.oiltempTextElement.textContent = Math.floor(parseFloat(this.data.oiltemptext));
+      // tacho.l100kmTextElement.textContent = this.data.l100kmtext;
+      // tacho.maxpowerTextElement.textContent = this.data.maxpowertext;
+      // tacho.maxtorqueTextElement.textContent = this.data.maxtorquetext;
+      ////
+
   }
 
   getDashes(dashesLength, dashSize1, dashSize2, dashCount) {
@@ -224,41 +224,29 @@ class BaseTachometerController {
   }
 
   update(tacho, streams) {
-
-    // YDeltagon add
-    // Check if the streams object and its properties exist before trying to set the data
-    this.data.powertext = (streams?.engineInfo?.[21] ?? 0) * 0.986;
-    this.data.torquetext = streams?.engineInfo?.[8] ?? 0;
-    this.data.weighttext = streams?.stats?.total_weight ?? 0;
-    this.data.oiltemptext = streams?.electrics?.oiltemp ?? 0;
-    // this.data.l100kmtext = "3";
-    // this.data.maxpowertext = "10";
-    // this.data.maxtorquetext = "10";
-    ////
-
     if (streams.electrics.wheelspeed) {
-
-      // YDeltagon add
-      this.data.airspeedtext = unitSpeed(streams.electrics.airspeed);
-      ////
-
       this.data.speedtext = unitSpeed(streams.electrics.wheelspeed);
-    } else if (streams.electrics.airspeed) {
 
       // YDeltagon add
       this.data.airspeedtext = unitSpeed(streams.electrics.airspeed);
       ////
 
+    } else if (streams.electrics.airspeed) {
       this.data.speedtext = unitSpeed(streams.electrics.airspeed);
+
+      // YDeltagon add
+      this.data.airspeedtext = unitSpeed(streams.electrics.airspeed);
+      ////
+
     }
 
     if (streams.engineInfo[13] == "manual") {
+      this.data.geartext = streams.engineInfo[5].toString();
 
       // YDeltagon add
       this.data.maxgeartext = streams.engineInfo[6];
       ////
 
-      this.data.geartext = streams.engineInfo[5].toString();
       if (streams.engineInfo[5] == 0) this.data.geartext = 'N';
       else if (streams.engineInfo[5] == -1) this.data.geartext = 'R';
       else if (-streams.engineInfo[5] > 1) this.data.geartext = 'R' + (-streams.engineInfo[5]);
@@ -281,8 +269,23 @@ class BaseTachometerController {
     this.data.rpm = (streams.electrics.rpmTacho || 0.0) / this.data.rpmMax;
     this.data.rawRpm = streams.electrics.rpmTacho;
     this.data.rawRpmMax = streams.engineInfo[1];
+
+    // YDeltagon add
+    this.data.powertext = (streams.engineInfo[21]* 0.986);
+    this.data.torquetext = streams.engineInfo[8];
+    this.data.weighttext = streams.stats.total_weight;
+    this.data.oiltemptext = streams.electrics.oiltemp;
+    // this.data.l100kmtext = "3";
+    // this.data.maxpowertext = "10";
+    // this.data.maxtorquetext = "10";
+    ////
+
     this.data.electrics = streams.electrics;
     this.data.engineInfo = streams.engineInfo;
+    
+    // YDeltagon add
+    this.data.stats = streams.stats;
+    ////
 
     this.applyData(tacho, this.data);
   }
