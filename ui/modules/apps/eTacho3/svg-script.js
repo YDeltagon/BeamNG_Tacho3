@@ -95,23 +95,23 @@ document.getStreams = function () {
   
   function applyData(data) {
     // speed and airspeed
-    speedText.textContent = data.speedtext || '0';
+    speedText.textContent = data.speedtext;
     if (speedText.textContent == "-Infinity" || speedText.textContent == "Infinity") { speedText.textContent = "-" };
-    airspeedText.textContent = data.airspeedtext || '0';
+    airspeedText.textContent = data.airspeedtext;
     
     // gear and maxgear
-    gearText.textContent = data.geartext || '0';
-    maxgearText.textContent = data.maxgeartext || '0';
+    gearText.textContent = data.geartext;
+    maxgearText.textContent = data.maxgeartext;
     
     // weight
-    weightText.textContent = data.weighttext && !isNaN(parseFloat(data.weighttext)) ? Math.floor(parseFloat(data.weighttext)) : '0';
+    weightText.textContent = Math.floor(parseFloat(data.weighttext));
     
     // Power and Torque RealTime
-    powerrtText.textContent = data.powerrttext && !isNaN(parseFloat(data.powerrttext)) ? Math.floor(parseFloat(data.powerrttext) * 0.98632) : '0';
-    torquertText.textContent = data.torquerttext && !isNaN(parseFloat(data.torquerttext)) ? Math.floor(parseFloat(data.torquerttext)) : '0';
+    powerrtText.textContent = Math.floor(parseFloat(data.powerrttext));
+    torquertText.textContent = Math.floor(parseFloat(data.torquerttext));
     
     // oiltemp
-    oiltempText.textContent = data.oiltemptext && !isNaN(parseFloat(data.oiltemptext)) ? Math.floor(parseFloat(data.oiltemptext)) : '0';    
+    oiltempText.textContent = Math.floor(parseFloat(data.oiltemptext));
     
     // fuel
     fuelBar.style['stroke-dashoffset'] = (1 - data.fuel) * fuelBarLen;
@@ -278,8 +278,8 @@ document.getStreams = function () {
         }
       })();
   
-      data.powerrttext = streams.engineInfo[21]
-      data.torquerttext = streams.engineInfo[8]
+      data.powerrttext = streams.engineInfo[21];
+      data.torquerttext = streams.engineInfo[8];
       data.weighttext = streams.stats.total_weight;
       data.oiltemptext = streams.electrics.oiltemp;
       data.fuel = streams.engineInfo[11] / streams.engineInfo[12];

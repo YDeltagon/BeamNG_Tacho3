@@ -14,19 +14,6 @@ class BaseTachometer {
     revNeedleTrailDashSize,
     revCurveDashSize1,
     revCurveDashSize2,
-
-    // YDeltagon add
-    airspeedTextElement,
-    maxgearTextElement,
-    powerTextElement,
-    torqueTextElement,
-    weightTextElement,
-    oiltempTextElement,
-    // l100kmTextElement,
-    // maxpowerTextElement,
-    // maxtorqueTextElement,
-    ////
-
     speedTextElement,
     revCurveDashesElement,
     revNeedleElement,
@@ -47,6 +34,19 @@ class BaseTachometer {
     icoIndicatorRightElement,
     icoLightsLowBeamElement,
     icoLightsHighBeamElement,
+
+    // YDeltagon add
+    airspeedTextElement,
+    maxgearTextElement,
+    powerTextElement,
+    torqueTextElement,
+    weightTextElement,
+    oiltempTextElement,
+    // l100kmTextElement,
+    // maxpowerTextElement,
+    // maxtorqueTextElement,
+    ////
+
     backlightElements
     // clickableAreaElements
   ) {
@@ -69,18 +69,6 @@ class BaseTachometer {
     this.revNeedleTrailDashSize = revNeedleTrailDashSize;
     this.revCurveDashSize1 = revCurveDashSize1;
     this.revCurveDashSize2 = revCurveDashSize2;
-
-    // YDeltagon add
-    this.airspeedTextElement = airspeedTextElement;
-    this.maxgearTextElement = maxgearTextElement;
-    this.powerTextElement = powerTextElement;
-    this.torqueTextElement = torqueTextElement;
-    this.weightTextElement = weightTextElement;
-    this.oiltempTextElement = oiltempTextElement;
-    // this.l100kmTextElement = l100kmTextElement;
-    // this.maxpowerTextElement = maxpowerTextElement;
-    // this.maxtorqueTextElement = maxtorqueTextElement;
-    ////
 
     this.speedTextElement = speedTextElement;
 
@@ -107,6 +95,18 @@ class BaseTachometer {
     this.icoIndicatorRightElement = icoIndicatorRightElement;
     this.icoLightsLowBeamElement = icoLightsLowBeamElement;
     this.icoLightsHighBeamElement = icoLightsHighBeamElement;
+
+    // YDeltagon add
+    this.airspeedTextElement = airspeedTextElement;
+    this.maxgearTextElement = maxgearTextElement;
+    this.powerTextElement = powerTextElement;
+    this.torqueTextElement = torqueTextElement;
+    this.weightTextElement = weightTextElement;
+    this.oiltempTextElement = oiltempTextElement;
+    // this.l100kmTextElement = l100kmTextElement;
+    // this.maxpowerTextElement = maxpowerTextElement;
+    // this.maxtorqueTextElement = maxtorqueTextElement;
+    ////
 
     this.backlightElements = backlightElements;
     // this.clickableAreaElements = clickableAreaElements;
@@ -137,19 +137,6 @@ class Tachometer extends BaseTachometer {
     revNeedleTrailDashSize,
     revCurveDashSize1,
     revCurveDashSize2,
-
-    // YDeltagon add
-    airspeedTextElement,
-    maxgearTextElement,
-    powerTextElement,
-    torqueTextElement,
-    weightTextElement,
-    oiltempTextElement,
-    // l100kmTextElement,
-    // maxpowerTextElement,
-    // maxtorqueTextElement,
-    ////
-
     speedTextElement,
     revCurveDashesElement,
     revNeedleElement,
@@ -170,6 +157,19 @@ class Tachometer extends BaseTachometer {
     icoIndicatorRightElement,
     icoLightsLowBeamElement,
     icoLightsHighBeamElement,
+
+    // YDeltagon add
+    airspeedTextElement,
+    maxgearTextElement,
+    powerTextElement,
+    torqueTextElement,
+    weightTextElement,
+    oiltempTextElement,
+    // l100kmTextElement,
+    // maxpowerTextElement,
+    // maxtorqueTextElement,
+    ////
+
     backlightElements
     // clickableAreaElements
   ) {
@@ -186,19 +186,6 @@ class Tachometer extends BaseTachometer {
       revNeedleTrailDashSize,
       revCurveDashSize1,
       revCurveDashSize2,
-
-      // YDeltagon add
-      airspeedTextElement,
-      maxgearTextElement,
-      powerTextElement,
-      torqueTextElement,
-      weightTextElement,
-      oiltempTextElement,
-      // l100kmTextElement,
-      // maxpowerTextElement,
-      // maxtorqueTextElement,
-      ////
-
       speedTextElement,
       revCurveDashesElement,
       revNeedleElement,
@@ -219,6 +206,19 @@ class Tachometer extends BaseTachometer {
       icoIndicatorRightElement,
       icoLightsLowBeamElement,
       icoLightsHighBeamElement,
+
+      // YDeltagon add
+      airspeedTextElement,
+      maxgearTextElement,
+      powerTextElement,
+      torqueTextElement,
+      weightTextElement,
+      oiltempTextElement,
+      // l100kmTextElement,
+      // maxpowerTextElement,
+      // maxtorqueTextElement,
+      ////
+
       backlightElements
       // clickableAreaElements
     );
@@ -239,20 +239,6 @@ class TachometerV2 extends BaseTachometer {
     revNeedleTrailDashSize,
     revCurveDashSize1,
     revCurveDashSize2,
-
-    
-      // YDeltagon add
-      airspeedTextElement,
-      maxgearTextElement,
-      powerTextElement,
-      torqueTextElement,
-      weightTextElement,
-      oiltempTextElement,
-      // l100kmTextElement,
-      // maxpowerTextElement,
-      // maxtorqueTextElement,
-      ////
-
     speedTextElement,
     revCurveDashesElement,
     revNeedleElement,
@@ -273,6 +259,19 @@ class TachometerV2 extends BaseTachometer {
     icoIndicatorRightElement,
     icoLightsLowBeamElement,
     icoLightsHighBeamElement,
+    
+      // YDeltagon add
+      airspeedTextElement,
+      maxgearTextElement,
+      powerTextElement,
+      torqueTextElement,
+      weightTextElement,
+      oiltempTextElement,
+      // l100kmTextElement,
+      // maxpowerTextElement,
+      // maxtorqueTextElement,
+      ////
+
     backlightElements
     // clickableAreaElements
   ) {
@@ -289,19 +288,6 @@ class TachometerV2 extends BaseTachometer {
       revNeedleTrailDashSize,
       revCurveDashSize1,
       revCurveDashSize2,
-
-      // YDeltagon add
-      airspeedTextElement,
-      maxgearTextElement,
-      powerTextElement,
-      torqueTextElement,
-      weightTextElement,
-      oiltempTextElement,
-      // l100kmTextElement,
-      // maxpowerTextElement,
-      // maxtorqueTextElement,
-      ////
-
       speedTextElement,
       revCurveDashesElement,
       revNeedleElement,
@@ -322,6 +308,19 @@ class TachometerV2 extends BaseTachometer {
       icoIndicatorRightElement,
       icoLightsLowBeamElement,
       icoLightsHighBeamElement,
+
+      // YDeltagon add
+      airspeedTextElement,
+      maxgearTextElement,
+      powerTextElement,
+      torqueTextElement,
+      weightTextElement,
+      oiltempTextElement,
+      // l100kmTextElement,
+      // maxpowerTextElement,
+      // maxtorqueTextElement,
+      ////
+
       backlightElements
       // clickableAreaElements
     );

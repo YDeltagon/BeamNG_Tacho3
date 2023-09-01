@@ -10,6 +10,12 @@ angular.module('beamng.apps')
       link: (scope, element, attrs) => {
         element.css({ transition: 'opacity 0.3s ease' });
 
+        // only once do we actually need to get the streams. they are always the same names anyway.
+        element.one('load', () => {
+          let svg = element[0].contentDocument;
+          StreamsManager.add(svg.getStreams());
+        });
+
         // YDeltagon add
         function updateVehiculeStats(element, scope) {
           var curTime = 0
